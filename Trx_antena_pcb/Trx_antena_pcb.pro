@@ -1,4 +1,4 @@
-update=mar 22 nov 2016 18:53:57 ART
+update=vie 02 dic 2016 13:06:15 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -28,12 +28,6 @@ ModuleOutlineThickness=0.15
 version=1
 [eeschema]
 version=1
-LibDir=/home/juanv/Desktop/OpenLoWPAN;/home/juanv/Desktop/Ponchos/kicad;/home/juanv/Desktop/tpfinal_Kicad/kicad;/home/juanv/Desktop/Ej2;/home/juanv/Desktop/Ej1/juanvmont
+LibDir=
 [eeschema/libraries]
-LibName1=Misc_Poncho_Grande
-LibName2=Poncho_Esqueleto
-LibName3=dongle/hardware/dongle
-LibName4=/home/juanv/Desktop/ubertooth-master/hardware/kicad/ubertooth-symbols
-LibName5=/home/juanv/Desktop/Ej2/Ej2-cache
-LibName6=/home/juanv/Desktop/Ej1/juanvmont/juanvmont-cache
-LibName7=device
+LibName1=device

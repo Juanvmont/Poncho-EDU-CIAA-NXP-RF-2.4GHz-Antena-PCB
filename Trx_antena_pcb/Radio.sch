@@ -1,23 +1,19 @@
 EESchema Schematic File Version 2
-LIBS:dongle
-LIBS:ubertooth-symbols
-LIBS:Ej2-cache
-LIBS:juanvmont-cache
 LIBS:device
 LIBS:Trx_antena_pcb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Sheet 2 2
+Title "Poncho EDU-CIAA-NXP RF 2.4GHz Antena PCB"
+Date "2016-12-02"
+Rev "1.0"
+Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
+Comment1 "https://github.com/ciaa/Ponchos/tree/master/modelos/doc"
+Comment2 "Basado en el template de Diego Brengi - UNLaM"
+Comment3 "Autor y Licencia del poncho (Juan Vicente Montilla-FIUBA). Ver directorio \"doc\""
+Comment4 "https://github.com/Juanvmont/Poncho-EDU-CIAA-NXP-RF-2.4GHz-Antena-PCB.git"
 $EndDescr
 $Comp
 L CC2520 U1
@@ -462,13 +458,13 @@ $EndComp
 $Comp
 L R R2
 U 1 1 5834A0FA
-P 1900 2450
-F 0 "R2" V 1980 2450 50  0000 C CNN
-F 1 "100K" V 1900 2450 50  0000 C CNN
-F 2 "R_0402" H 1830 2450 50  0001 C CNN
-F 3 "" H 1900 2450 50  0000 C CNN
-F 4 "RMCF0402JT1M00CT-ND" H 1900 2450 60  0001 C CNN "Digikey#"
-	1    1900 2450
+P 1900 2400
+F 0 "R2" V 1980 2400 50  0000 C CNN
+F 1 "100K" V 1900 2400 50  0000 C CNN
+F 2 "R_0402" H 1830 2400 50  0001 C CNN
+F 3 "" H 1900 2400 50  0000 C CNN
+F 4 "RMCF0402JT1M00CT-ND" H 1900 2400 60  0001 C CNN "Digikey#"
+	1    1900 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -508,7 +504,7 @@ F 4 "311-1047-1-ND" H 4350 3900 60  0001 C CNN "Digikey#"
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 6000 3500
-Text Label 2100 2600 0    60   ~ 0
+Text Label 2150 2400 0    60   ~ 0
 VREG_EN
 $Comp
 L GND #PWR26
@@ -637,8 +633,6 @@ Connection ~ 1450 3950
 Wire Wire Line
 	1450 4350 1450 4150
 Connection ~ 1450 4150
-Wire Wire Line
-	1900 2300 1900 2200
 Wire Wire Line
 	1700 2700 1700 2650
 Wire Wire Line
@@ -816,4 +810,17 @@ Wire Wire Line
 Wire Wire Line
 	1700 2350 1700 2200
 Connection ~ 1700 2200
+Text HLabel 2400 2750 0    60   Input ~ 0
+VREG_EN
+Wire Wire Line
+	1900 2250 1900 2200
+Wire Wire Line
+	1900 2550 1900 2600
+Wire Wire Line
+	1900 2600 2550 2600
+Wire Wire Line
+	2400 2750 2500 2750
+Wire Wire Line
+	2500 2750 2500 2600
+Connection ~ 2500 2600
 $EndSCHEMATC

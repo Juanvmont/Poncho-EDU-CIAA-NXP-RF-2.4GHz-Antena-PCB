@@ -14,14 +14,14 @@
 
   (page A4)
   (title_block
-    (title "Poncho Izquierdo - Modelo - Ejemplo - Template")
-    (date "lun 05 oct 2015")
+    (title "Poncho EDU-CIAA-NXP RF 2.4GHz Antena PCB")
+    (date 2016-12-02)
     (rev 1.0)
     (company "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA")
     (comment 1 https://github.com/ciaa/Ponchos/tree/master/modelos/doc)
-    (comment 2 "Autores y Licencia del template (Diego Brengi - UNLaM)")
-    (comment 3 "Autor del poncho (COMPLETAR NOMBRE Y APELLIDO). Ver directorio \"doc\"")
-    (comment 4 "CÓDIGO PONCHO:")
+    (comment 2 "Autor y Licencia del template (Diego Brengi - UNLaM)")
+    (comment 3 "Autor y Licencia del poncho (Juan Vicente Montilla-FIUBA). Ver directorio \"doc\"")
+    (comment 4 https://github.com/Juanvmont/Poncho-EDU-CIAA-NXP-RF-2.4GHz-Antena-PCB.git)
   )
 
   (layers
@@ -443,7 +443,7 @@
   )
 
   (module Poncho_Esqueleto:Logo_EDU-CIAA (layer F.Cu) (tedit 560D8BDB) (tstamp 560EE0E7)
-    (at 87.63 116.205)
+    (at 87.5 112.25)
     (fp_text reference G*** (at 0 7.112) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
@@ -537,7 +537,7 @@
   )
 
   (module Poncho_Esqueleto:Logo_Poncho (layer F.Cu) (tedit 560DAFF4) (tstamp 560EEA4B)
-    (at 100.75 71.25)
+    (at 87.25 94.25)
     (fp_text reference G*** (at 0.127 5.588) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
     )
@@ -640,7 +640,7 @@
   )
 
   (module Poncho_Esqueleto:Logo_OSHWA (layer F.Cu) (tedit 560D8B85) (tstamp 560EEA57)
-    (at 68.75 70.5)
+    (at 87 123)
     (fp_text reference G101 (at 0 4.2418) (layer F.SilkS) hide
       (effects (font (size 0.7112 0.4572) (thickness 0.1143)))
     )

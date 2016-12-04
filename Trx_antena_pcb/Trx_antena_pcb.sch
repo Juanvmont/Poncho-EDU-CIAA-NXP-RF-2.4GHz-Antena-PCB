@@ -1,23 +1,19 @@
 EESchema Schematic File Version 2
-LIBS:dongle
-LIBS:ubertooth-symbols
-LIBS:Ej2-cache
-LIBS:juanvmont-cache
 LIBS:device
 LIBS:Trx_antena_pcb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
-Title "Poncho Izquierdo - Modelo - Ejemplo - Template"
-Date "2015-10-06"
+Sheet 1 2
+Title "Poncho EDU-CIAA-NXP RF 2.4GHz Antena PCB"
+Date "2016-12-02"
 Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/ciaa/Ponchos/tree/master/modelos/doc"
-Comment2 "Autores y Licencia del template (Diego Brengi - UNLaM)"
-Comment3 "Autor del poncho (COMPLETAR NOMBRE Y APELLIDO). Ver directorio \"doc\""
-Comment4 "CÓDIGO PONCHO: "
+Comment2 "Basado en el template de Diego Brengi - UNLaM"
+Comment3 "Autor y Licencia del poncho (Juan Vicente Montilla-FIUBA). Ver directorio \"doc\""
+Comment4 "https://github.com/Juanvmont/Poncho-EDU-CIAA-NXP-RF-2.4GHz-Antena-PCB.git"
 $EndDescr
 $Comp
 L OSHWA #G2
@@ -56,66 +52,10 @@ F 3 "" H 4450 6350 60  0000 C CNN
 	11   4600 6000
 	-1   0    0    -1  
 $EndComp
-$Comp
-L CONN_5 P1
-U 1 1 560ED139
-P 5100 4200
-F 0 "P1" V 5050 4200 50  0000 C CNN
-F 1 "CONN_5" V 5150 4200 50  0000 C CNN
-F 2 "Poncho_Modelos:bornier5" H 5550 4600 60  0000 C CNN
-F 3 "" H 5100 4200 60  0000 C CNN
-	1    5100 4200
-	1    0    0    1   
-$EndComp
-$Comp
-L CONN_4 P2
-U 1 1 560ED17A
-P 3300 5950
-F 0 "P2" V 3250 5950 50  0000 C CNN
-F 1 "CONN_4" V 3350 5950 50  0000 C CNN
-F 2 "Poncho_Modelos:bornier4" H 3700 5650 60  0000 C CNN
-F 3 "" H 3300 5950 60  0000 C CNN
-	1    3300 5950
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4500 4200 4750 4200
 Wire Wire Line
 	4750 4300 4500 4300
-Wire Wire Line
-	4750 4000 4600 4000
-Wire Wire Line
-	4600 4000 4600 3900
-Wire Wire Line
-	4750 4400 4650 4400
-Wire Wire Line
-	4650 4400 4650 4500
-$Comp
-L GND #PWR4
-U 1 1 560ED8F9
-P 4650 4500
-F 0 "#PWR4" H 4650 4500 30  0001 C CNN
-F 1 "GND" H 4650 4430 30  0001 C CNN
-F 2 "" H 4650 4500 60  0000 C CNN
-F 3 "" H 4650 4500 60  0000 C CNN
-	1    4650 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR1
-U 1 1 560ED917
-P 3750 6250
-F 0 "#PWR1" H 3750 6250 30  0001 C CNN
-F 1 "GND" H 3750 6180 30  0001 C CNN
-F 2 "" H 3750 6250 60  0000 C CNN
-F 3 "" H 3750 6250 60  0000 C CNN
-	1    3750 6250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 6100 3750 6100
-Wire Wire Line
-	3750 6100 3750 6250
 NoConn ~ 4150 6100
 NoConn ~ 4150 6300
 NoConn ~ 4150 6400
@@ -211,37 +151,12 @@ F 3 "" H 5800 1950 60  0000 C CNN
 	1    5800 1950
 	1    0    0    -1  
 $EndComp
-$Comp
-L +5VP #PWR3
-U 1 1 5613257D
-P 4600 3900
-F 0 "#PWR3" H 4600 3990 20  0001 C CNN
-F 1 "+5VP" H 4600 3990 30  0000 C CNN
-F 2 "" H 4600 3900 60  0000 C CNN
-F 3 "" H 4600 3900 60  0000 C CNN
-	1    4600 3900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5800 2000 5800 1950
 Connection ~ 5300 2000
 NoConn ~ 4200 2400
 NoConn ~ 4200 2300
 NoConn ~ 4200 2200
-Wire Wire Line
-	4150 6200 3900 6200
-Wire Wire Line
-	3900 6200 3900 6000
-Wire Wire Line
-	3900 6000 3650 6000
-Wire Wire Line
-	4150 6000 3950 6000
-Wire Wire Line
-	3950 6000 3950 5900
-Wire Wire Line
-	3950 5900 3650 5900
-Wire Wire Line
-	4150 5800 3650 5800
 $Comp
 L PCB_HOLE H2
 U 1 1 5613C2CE
@@ -269,17 +184,20 @@ NoConn ~ 8550 5950
 Text Notes 7450 5650 0    60   ~ 0
 Agujeros para visualización de LEDs
 $Sheet
-S 500  950  1150 1550
-U 582F7A78
-F0 "Conectores" 60
-F1 "Conectores.sch" 60
-$EndSheet
-$Sheet
-S 800  3200 800  2750
+S 800  2400 800  2750
 U 582F8126
 F0 "Radio" 60
 F1 "Radio.sch" 60
+F2 "SO" O R 1600 2700 60 
+F3 "SI" I R 1600 2800 60 
+F4 "VREG_EN" I R 1600 2600 60 
+F5 "SCLK" I R 1600 2900 60 
+F6 "GPIO5" B R 1600 3000 60 
+F7 "GPIO4" B R 1600 3100 60 
+F8 "GPIO3" B R 1600 3200 60 
+F9 "GPIO2" B R 1600 3300 60 
+F10 "GPIO1" B R 1600 3400 60 
+F11 "GPIO0" B R 1600 3500 60 
+F12 "RST" I R 1600 3600 60 
 $EndSheet
-Text HLabel 1600 3250 0    60   Input ~ 0
-VREG_EN
 $EndSCHEMATC
