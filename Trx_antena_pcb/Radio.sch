@@ -51,47 +51,25 @@ F 4 "296-25327-1-ND" H 6900 3450 60  0001 C CNN "Digikey#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR18
-U 1 1 5830EDC8
-P 4700 1400
-F 0 "#PWR18" H 4700 1400 30  0001 C CNN
-F 1 "GND" H 4700 1330 30  0001 C CNN
-F 2 "" H 4700 1400 60  0000 C CNN
-F 3 "" H 4700 1400 60  0000 C CNN
-	1    4700 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5VP #PWR19
-U 1 1 5830EE0F
-P 5050 1550
-F 0 "#PWR19" H 5050 1640 20  0001 C CNN
-F 1 "+5VP" H 5050 1640 30  0000 C CNN
-F 2 "" H 5050 1550 60  0000 C CNN
-F 3 "" H 5050 1550 60  0000 C CNN
-	1    5050 1550
-	1    0    0    -1  
-$EndComp
-$Comp
 L OSHWA #G3
 U 1 1 5830EE8B
-P 10350 1200
-F 0 "#G3" H 10320 1600 60  0001 C CNN
-F 1 "OSHWA" H 10350 1503 60  0001 C CNN
-F 2 "" H 10350 1200 60  0000 C CNN
-F 3 "" H 10350 1200 60  0000 C CNN
-	1    10350 1200
+P 10800 6000
+F 0 "#G3" H 10770 6400 60  0001 C CNN
+F 1 "OSHWA" H 10800 6303 60  0001 C CNN
+F 2 "" H 10800 6000 60  0000 C CNN
+F 3 "" H 10800 6000 60  0000 C CNN
+	1    10800 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Logo_Poncho #G4
 U 1 1 5830EEB7
-P 10400 2000
-F 0 "#G4" H 10350 1600 60  0001 C CNN
-F 1 "Logo_Poncho" H 10600 1600 60  0001 C CNN
-F 2 "" H 10400 2000 60  0000 C CNN
-F 3 "" H 10400 2000 60  0000 C CNN
-	1    10400 2000
+P 10150 5950
+F 0 "#G4" H 10100 5550 60  0001 C CNN
+F 1 "Logo_Poncho" H 10350 5550 60  0001 C CNN
+F 2 "" H 10150 5950 60  0000 C CNN
+F 3 "" H 10150 5950 60  0000 C CNN
+	1    10150 5950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -108,67 +86,56 @@ $EndComp
 $Comp
 L GND #PWR15
 U 1 1 5830EF97
-P 4550 3900
-F 0 "#PWR15" H 4550 3900 30  0001 C CNN
-F 1 "GND" H 4550 3830 30  0001 C CNN
-F 2 "" H 4550 3900 60  0000 C CNN
-F 3 "" H 4550 3900 60  0000 C CNN
-	1    4550 3900
+P 4650 3900
+F 0 "#PWR15" H 4650 3900 30  0001 C CNN
+F 1 "GND" H 4650 3830 30  0001 C CNN
+F 2 "" H 4650 3900 60  0000 C CNN
+F 3 "" H 4650 3900 60  0000 C CNN
+	1    4650 3900
 	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR7
 U 1 1 5830EFAB
-P 1350 3950
-F 0 "#PWR7" H 1350 3950 30  0001 C CNN
-F 1 "GND" H 1350 3880 30  0001 C CNN
-F 2 "" H 1350 3950 60  0000 C CNN
-F 3 "" H 1350 3950 60  0000 C CNN
-	1    1350 3950
+P 1250 3950
+F 0 "#PWR7" H 1250 3950 30  0001 C CNN
+F 1 "GND" H 1250 3880 30  0001 C CNN
+F 2 "" H 1250 3950 60  0000 C CNN
+F 3 "" H 1250 3950 60  0000 C CNN
+	1    1250 3950
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR10
 U 1 1 5830EFC5
-P 1700 2700
-F 0 "#PWR10" H 1700 2700 30  0001 C CNN
-F 1 "GND" H 1700 2630 30  0001 C CNN
-F 2 "" H 1700 2700 60  0000 C CNN
-F 3 "" H 1700 2700 60  0000 C CNN
-	1    1700 2700
+P 1700 2650
+F 0 "#PWR10" H 1700 2650 30  0001 C CNN
+F 1 "GND" H 1700 2580 30  0001 C CNN
+F 2 "" H 1700 2650 60  0000 C CNN
+F 3 "" H 1700 2650 60  0000 C CNN
+	1    1700 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR8
 U 1 1 5830EFD9
-P 1350 4150
-F 0 "#PWR8" H 1350 4150 30  0001 C CNN
-F 1 "GND" H 1350 4080 30  0001 C CNN
-F 2 "" H 1350 4150 60  0000 C CNN
-F 3 "" H 1350 4150 60  0000 C CNN
-	1    1350 4150
+P 1250 4150
+F 0 "#PWR8" H 1250 4150 30  0001 C CNN
+F 1 "GND" H 1250 4080 30  0001 C CNN
+F 2 "" H 1250 4150 60  0000 C CNN
+F 3 "" H 1250 4150 60  0000 C CNN
+	1    1250 4150
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR17
 U 1 1 5830EFED
-P 4800 2650
-F 0 "#PWR17" H 4800 2650 30  0001 C CNN
-F 1 "GND" H 4800 2580 30  0001 C CNN
-F 2 "" H 4800 2650 60  0000 C CNN
-F 3 "" H 4800 2650 60  0000 C CNN
-	1    4800 2650
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR11
-U 1 1 5830F0E6
-P 3100 1350
-F 0 "#PWR11" H 3100 1350 30  0001 C CNN
-F 1 "GND" H 3100 1280 30  0001 C CNN
-F 2 "" H 3100 1350 60  0000 C CNN
-F 3 "" H 3100 1350 60  0000 C CNN
-	1    3100 1350
+P 4950 2650
+F 0 "#PWR17" H 4950 2650 30  0001 C CNN
+F 1 "GND" H 4950 2580 30  0001 C CNN
+F 2 "" H 4950 2650 60  0000 C CNN
+F 3 "" H 4950 2650 60  0000 C CNN
+	1    4950 2650
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -196,23 +163,23 @@ $EndComp
 $Comp
 L GND #PWR6
 U 1 1 5830F12B
-P 1350 3450
-F 0 "#PWR6" H 1350 3450 30  0001 C CNN
-F 1 "GND" H 1350 3380 30  0001 C CNN
-F 2 "" H 1350 3450 60  0000 C CNN
-F 3 "" H 1350 3450 60  0000 C CNN
-	1    1350 3450
+P 1900 3550
+F 0 "#PWR6" H 1900 3550 30  0001 C CNN
+F 1 "GND" H 1900 3480 30  0001 C CNN
+F 2 "" H 1900 3550 60  0000 C CNN
+F 3 "" H 1900 3550 60  0000 C CNN
+	1    1900 3550
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR23
 U 1 1 5830F17C
-P 6750 4700
-F 0 "#PWR23" H 6750 4700 30  0001 C CNN
-F 1 "GND" H 6750 4630 30  0001 C CNN
-F 2 "" H 6750 4700 60  0000 C CNN
-F 3 "" H 6750 4700 60  0000 C CNN
-	1    6750 4700
+P 6750 5050
+F 0 "#PWR23" H 6750 5050 30  0001 C CNN
+F 1 "GND" H 6750 4980 30  0001 C CNN
+F 2 "" H 6750 5050 60  0000 C CNN
+F 3 "" H 6750 5050 60  0000 C CNN
+	1    6750 5050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -229,13 +196,13 @@ $EndComp
 $Comp
 L GND #PWR27
 U 1 1 5830F1B8
-P 8050 2950
-F 0 "#PWR27" H 8050 2950 30  0001 C CNN
-F 1 "GND" H 8050 2880 30  0001 C CNN
-F 2 "" H 8050 2950 60  0000 C CNN
-F 3 "" H 8050 2950 60  0000 C CNN
-	1    8050 2950
-	0    -1   -1   0   
+P 6950 2500
+F 0 "#PWR27" H 6950 2500 30  0001 C CNN
+F 1 "GND" H 6950 2430 30  0001 C CNN
+F 2 "" H 6950 2500 60  0000 C CNN
+F 3 "" H 6950 2500 60  0000 C CNN
+	1    6950 2500
+	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR30
@@ -295,35 +262,35 @@ $EndComp
 $Comp
 L GND #PWR20
 U 1 1 5830F291
-P 4800 4050
-F 0 "#PWR20" H 4800 4050 30  0001 C CNN
-F 1 "GND" H 4800 3980 30  0001 C CNN
-F 2 "" H 4800 4050 60  0000 C CNN
-F 3 "" H 4800 4050 60  0000 C CNN
-	1    4800 4050
+P 4950 4050
+F 0 "#PWR20" H 4950 4050 30  0001 C CNN
+F 1 "GND" H 4950 3980 30  0001 C CNN
+F 2 "" H 4950 4050 60  0000 C CNN
+F 3 "" H 4950 4050 60  0000 C CNN
+	1    4950 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR22
 U 1 1 5830F2A8
-P 6150 2450
-F 0 "#PWR22" H 6150 2450 30  0001 C CNN
-F 1 "GND" H 6150 2380 30  0001 C CNN
-F 2 "" H 6150 2450 60  0000 C CNN
-F 3 "" H 6150 2450 60  0000 C CNN
-	1    6150 2450
+P 6200 2450
+F 0 "#PWR22" H 6200 2450 30  0001 C CNN
+F 1 "GND" H 6200 2380 30  0001 C CNN
+F 2 "" H 6200 2450 60  0000 C CNN
+F 3 "" H 6200 2450 60  0000 C CNN
+	1    6200 2450
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR21
 U 1 1 5830F2BC
-P 5900 2150
-F 0 "#PWR21" H 5900 2150 30  0001 C CNN
-F 1 "GND" H 5900 2080 30  0001 C CNN
-F 2 "" H 5900 2150 60  0000 C CNN
-F 3 "" H 5900 2150 60  0000 C CNN
-	1    5900 2150
-	-1   0    0    1   
+P 6200 1850
+F 0 "#PWR21" H 6200 1850 30  0001 C CNN
+F 1 "GND" H 6200 1780 30  0001 C CNN
+F 2 "" H 6200 1850 60  0000 C CNN
+F 3 "" H 6200 1850 60  0000 C CNN
+	1    6200 1850
+	0    1    1    0   
 $EndComp
 $Comp
 L C C3
@@ -332,7 +299,7 @@ P 3750 1950
 F 0 "C3" H 3775 2050 50  0000 L CNN
 F 1 "100nF" H 3775 1850 50  0000 L CNN
 F 2 "C_0402" H 3788 1800 50  0001 C CNN
-F 3 "" H 3750 1950 50  0000 C CNN
+F 3 "http://www.mouser.com/ds/2/447/Yageo_UPY-GP_NP0_16V-to-50V_9-358835.pdf" H 3750 1950 50  0001 C CNN
 F 4 "311-1047-1-ND" H 3750 1950 60  0001 C CNN "Digikey#"
 	1    3750 1950
 	1    0    0    -1  
@@ -355,7 +322,7 @@ P 3450 1950
 F 0 "C2" H 3475 2050 50  0000 L CNN
 F 1 "100nF" H 3475 1850 50  0000 L CNN
 F 2 "C_0402" H 3488 1800 50  0001 C CNN
-F 3 "" H 3450 1950 50  0000 C CNN
+F 3 "http://www.mouser.com/ds/2/447/Yageo_UPY-GP_NP0_16V-to-50V_9-358835.pdf" H 3450 1950 50  0001 C CNN
 F 4 "311-1047-1-ND" H 3450 1950 60  0001 C CNN "Digikey#"
 	1    3450 1950
 	1    0    0    -1  
@@ -367,7 +334,7 @@ P 3850 1550
 F 0 "C4" H 3875 1650 50  0000 L CNN
 F 1 "100nF" H 3875 1450 50  0000 L CNN
 F 2 "C_0402" H 3888 1400 50  0001 C CNN
-F 3 "" H 3850 1550 50  0000 C CNN
+F 3 "http://www.mouser.com/ds/2/447/Yageo_UPY-GP_NP0_16V-to-50V_9-358835.pdf" H 3850 1550 50  0001 C CNN
 F 4 "311-1047-1-ND" H 3850 1550 60  0001 C CNN "Digikey#"
 	1    3850 1550
 	1    0    0    -1  
@@ -375,23 +342,23 @@ $EndComp
 $Comp
 L C 1uF/6.3V1
 U 1 1 5834A0B8
-P 1700 2500
-F 0 "1uF/6.3V1" H 1300 2400 50  0000 L CNN
-F 1 "C" H 1725 2400 50  0000 L CNN
-F 2 "C_0402" H 1738 2350 50  0001 C CNN
-F 3 "" H 1700 2500 50  0000 C CNN
-F 4 "490-3890-1-ND" H 1700 2500 60  0001 C CNN "Digikey#"
-	1    1700 2500
+P 1700 2450
+F 0 "1uF/6.3V1" H 1300 2350 50  0000 L CNN
+F 1 "C" H 1725 2350 50  0000 L CNN
+F 2 "C_0402" H 1738 2300 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" H 1700 2450 50  0001 C CNN
+F 4 "490-3890-1-ND" H 1700 2450 60  0001 C CNN "Digikey#"
+	1    1700 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C7
 U 1 1 5834A1E1
 P 4350 3300
-F 0 "C7" H 4375 3400 50  0000 L CNN
-F 1 "100nF" H 4375 3200 50  0000 L CNN
+F 0 "C7" V 4400 3350 50  0000 L CNN
+F 1 "100nF" V 4400 3000 50  0000 L CNN
 F 2 "C_0402" H 4388 3150 50  0001 C CNN
-F 3 "" H 4350 3300 50  0000 C CNN
+F 3 "http://www.mouser.com/ds/2/447/Yageo_UPY-GP_NP0_16V-to-50V_9-358835.pdf" H 4350 3300 50  0001 C CNN
 F 4 "311-1047-1-ND" H 4350 3300 60  0001 C CNN "Digikey#"
 	1    4350 3300
 	0    -1   -1   0   
@@ -399,37 +366,37 @@ $EndComp
 $Comp
 L C C8
 U 1 1 5834A259
-P 4500 3400
-F 0 "C8" H 4525 3500 50  0000 L CNN
-F 1 "100nF" H 4525 3300 50  0000 L CNN
-F 2 "C_0402" H 4538 3250 50  0001 C CNN
-F 3 "" H 4500 3400 50  0000 C CNN
-F 4 "311-1047-1-ND" H 4500 3400 60  0001 C CNN "Digikey#"
-	1    4500 3400
+P 4650 3400
+F 0 "C8" V 4600 3250 50  0000 L CNN
+F 1 "100nF" V 4600 3450 50  0000 L CNN
+F 2 "C_0402" H 4688 3250 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/447/Yageo_UPY-GP_NP0_16V-to-50V_9-358835.pdf" H 4650 3400 50  0001 C CNN
+F 4 "311-1047-1-ND" H 4650 3400 60  0001 C CNN "Digikey#"
+	1    4650 3400
 	0    1    1    0   
 $EndComp
 $Comp
 L C C5
 U 1 1 5834A314
-P 1600 3750
-F 0 "C5" H 1625 3850 50  0000 L CNN
-F 1 "100nF" H 1625 3650 50  0000 L CNN
-F 2 "C_0402" H 1638 3600 50  0001 C CNN
-F 3 "" H 1600 3750 50  0000 C CNN
-F 4 "311-1047-1-ND" H 1600 3750 60  0001 C CNN "Digikey#"
-	1    1600 3750
+P 1500 3750
+F 0 "C5" H 1525 3850 50  0000 L CNN
+F 1 "100nF" H 1525 3650 50  0000 L CNN
+F 2 "C_0402" H 1538 3600 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/447/Yageo_UPY-GP_NP0_16V-to-50V_9-358835.pdf" H 1500 3750 50  0001 C CNN
+F 4 "311-1047-1-ND" H 1500 3750 60  0001 C CNN "Digikey#"
+	1    1500 3750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L C C6
 U 1 1 5834A3A6
-P 1600 4350
-F 0 "C6" H 1625 4450 50  0000 L CNN
-F 1 "100nF" H 1625 4250 50  0000 L CNN
-F 2 "C_0402" H 1638 4200 50  0001 C CNN
-F 3 "" H 1600 4350 50  0000 C CNN
-F 4 "311-1047-1-ND" H 1600 4350 60  0001 C CNN "Digikey#"
-	1    1600 4350
+P 1500 4350
+F 0 "C6" H 1525 4450 50  0000 L CNN
+F 1 "100nF" H 1525 4250 50  0000 L CNN
+F 2 "C_0402" H 1538 4200 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/447/Yageo_UPY-GP_NP0_16V-to-50V_9-358835.pdf" H 1500 4350 50  0001 C CNN
+F 4 "311-1047-1-ND" H 1500 4350 60  0001 C CNN "Digikey#"
+	1    1500 4350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -444,25 +411,13 @@ F 3 "" H 1000 2200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R1
-U 1 1 58349A84
-P 1350 3250
-F 0 "R1" V 1430 3250 50  0000 C CNN
-F 1 "1M" V 1350 3250 50  0000 C CNN
-F 2 "R_0402" H 1280 3250 50  0001 C CNN
-F 3 "" H 1350 3250 50  0000 C CNN
-F 4 "RMCF0402JT1M00CT-ND" H 1350 3250 60  0001 C CNN "Digikey#"
-	1    1350 3250
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R2
 U 1 1 5834A0FA
 P 1900 2400
 F 0 "R2" V 1980 2400 50  0000 C CNN
 F 1 "100K" V 1900 2400 50  0000 C CNN
 F 2 "R_0402" H 1830 2400 50  0001 C CNN
-F 3 "" H 1900 2400 50  0000 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1900 2400 50  0001 C CNN
 F 4 "RMCF0402JT1M00CT-ND" H 1900 2400 60  0001 C CNN "Digikey#"
 	1    1900 2400
 	1    0    0    -1  
@@ -474,38 +429,36 @@ P 4350 4100
 F 0 "R3" V 4430 4100 50  0000 C CNN
 F 1 "56K 1%" V 4350 4100 50  0000 C CNN
 F 2 "R_0402" H 4280 4100 50  0001 C CNN
-F 3 "" H 4350 4100 50  0000 C CNN
-F 4 "RMCF0402JT1M00CT-ND" H 4350 4100 60  0001 C CNN "Digikey#"
+F 3 "http://www.yageo.com/exep/pages/download/literatures/PYu-R_Marking_2.pdf" H 4350 4100 50  0001 C CNN
+F 4 "311-56.0KLRCT-ND" H 4350 4100 60  0001 C CNN "Digikey#"
 	1    4350 4100
 	0    1    1    0   
 $EndComp
 $Comp
 L xtal4pin X1
 U 1 1 5834A86F
-P 1850 4050
-F 0 "X1" H 1850 4200 60  0000 C CNN
-F 1 "32MHz" H 1850 3900 60  0000 C CNN
-F 2 "" H 1850 4050 60  0001 C CNN
-F 3 "" H 1850 4050 60  0001 C CNN
-F 4 "887-1312-1-ND" H 1850 4050 60  0001 C CNN "Digikey#"
-	1    1850 4050
+P 1750 4050
+F 0 "X1" H 1750 4200 60  0000 C CNN
+F 1 "32MHz" H 1750 3900 60  0000 C CNN
+F 2 "" H 1750 4050 60  0001 C CNN
+F 3 "" H 1750 4050 60  0001 C CNN
+F 4 "887-1312-1-ND" H 1750 4050 60  0001 C CNN "Digikey#"
+	1    1750 4050
 	0    1    1    0   
 $EndComp
 $Comp
 L C C1
 U 1 1 5834B4E9
 P 4350 3900
-F 0 "C1" H 4375 4000 50  0000 L CNN
-F 1 "100nF" H 4375 3800 50  0000 L CNN
+F 0 "C1" V 4400 3750 50  0000 L CNN
+F 1 "100nF" V 4300 3600 50  0000 L CNN
 F 2 "C_0402" H 4388 3750 50  0001 C CNN
-F 3 "" H 4350 3900 50  0000 C CNN
+F 3 "http://www.mouser.com/ds/2/447/Yageo_UPY-GP_NP0_16V-to-50V_9-358835.pdf" H 4350 3900 50  0001 C CNN
 F 4 "311-1047-1-ND" H 4350 3900 60  0001 C CNN "Digikey#"
 	1    4350 3900
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 6000 3500
-Text Label 2150 2400 0    60   ~ 0
-VREG_EN
 $Comp
 L GND #PWR26
 U 1 1 5834FB21
@@ -524,7 +477,7 @@ P 8700 3550
 F 0 "C10" H 8725 3650 50  0000 L CNN
 F 1 "1.0pF" H 8725 3450 50  0000 L CNN
 F 2 "C_0402" H 8738 3400 50  0001 C CNN
-F 3 "" H 8700 3550 50  0000 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" H 8700 3550 50  0001 C CNN
 F 4 "490-3199-1-ND" H 8700 3550 60  0001 C CNN "Digikey#"
 	1    8700 3550
 	1    0    0    -1  
@@ -536,7 +489,7 @@ P 9050 3400
 F 0 "C11" H 9075 3500 50  0000 L CNN
 F 1 "6.8pF" H 9075 3300 50  0000 L CNN
 F 2 "C_0402" H 9088 3250 50  0001 C CNN
-F 3 "" H 9050 3400 50  0000 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Murata%20PDFs/Chip%20Monolithic%20Ceramic%20Caps.pdf" H 9050 3400 50  0001 C CNN
 F 4 "490-1276-1-ND" H 9050 3400 60  0001 C CNN "Digikey#"
 	1    9050 3400
 	0    -1   -1   0   
@@ -548,7 +501,7 @@ P 9300 3550
 F 0 "C12" H 9325 3650 50  0000 L CNN
 F 1 "2.7pF" H 9325 3450 50  0000 L CNN
 F 2 "C_0402" H 9338 3400 50  0001 C CNN
-F 3 "" H 9300 3550 50  0000 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Murata%20PDFs/Chip%20Monolithic%20Ceramic%20Caps.pdf" H 9300 3550 50  0001 C CNN
 F 4 "490-1269-1-ND" H 9300 3550 60  0001 C CNN "Digikey#"
 	1    9300 3550
 	1    0    0    -1  
@@ -560,11 +513,378 @@ P 9750 3400
 F 0 "R5" V 9830 3400 50  0000 C CNN
 F 1 "3.3 1%" V 9750 3400 50  0000 C CNN
 F 2 "R_0402" H 9680 3400 50  0001 C CNN
-F 3 "" H 9750 3400 50  0000 C CNN
+F 3 "http://www.yageo.com/exep/pages/download/literatures/PYu-R_Marking_2.pdf" H 9750 3400 50  0001 C CNN
 F 4 "311-3.30LRCT-ND" H 9750 3400 60  0001 C CNN "Digikey#"
 	1    9750 3400
 	0    1    1    0   
 $EndComp
+$Comp
+L R R4
+U 1 1 583540C5
+P 6850 2300
+F 0 "R4" V 6930 2300 50  0000 C CNN
+F 1 "4.3k 1%" V 6850 2300 50  0000 C CNN
+F 2 "R_0402" H 6780 2300 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 6850 2300 50  0001 C CNN
+F 4 "311-4.30KLRCT-ND" H 6850 2300 60  0001 C CNN "Digikey#"
+	1    6850 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C9
+U 1 1 583545EA
+P 6450 2450
+F 0 "C9" H 6475 2550 50  0000 L CNN
+F 1 "1nF" H 6475 2350 50  0000 L CNN
+F 2 "C_0402" H 6488 2300 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_15.pdf" H 6450 2450 50  0001 C CNN
+F 4 "311-1036-1-ND" H 6450 2450 60  0001 C CNN "Digikey#"
+	1    6450 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L?
+U 1 1 58356107
+P 1400 2200
+F 0 "L?" V 1350 2200 50  0000 C CNN
+F 1 "1K" V 1500 2200 50  0000 C CNN
+F 2 "C_0402" H 1400 2200 50  0001 C CNN
+F 3 "http://cdn.lairdtech.com/home/brandworld/files/Catalog_EMI%20Filtering%20&%20RF%20Inductors.pdf" H 1400 2200 50  0001 C CNN
+F 4 "240-2555-1-ND" H 1400 2200 60  0001 C CNN "Digikey#"
+	1    1400 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L?
+U 1 1 58389C11
+P 4950 3000
+F 0 "L?" V 4900 3000 50  0000 C CNN
+F 1 "1.0nH" V 5050 3000 50  0000 C CNN
+F 2 "C_0402" H 4950 3000 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_high-frequency_mlg1005s_en.pdf" H 4950 3000 50  0001 C CNN
+F 4 "445-3035-1-ND" H 4950 3000 60  0001 C CNN "Digikey#"
+	1    4950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L?
+U 1 1 5838AB71
+P 4950 3700
+F 0 "L?" V 4900 3700 50  0000 C CNN
+F 1 "1.0nH" V 5050 3700 50  0000 C CNN
+F 2 "C_0402" H 4950 3700 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_high-frequency_mlg1005s_en.pdf" H 4950 3700 50  0001 C CNN
+F 4 "445-3035-1-ND" H 4950 3700 60  0001 C CNN "Digikey#"
+	1    4950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L?
+U 1 1 5838B199
+P 5300 3300
+F 0 "L?" V 5500 3300 50  0000 C CNN
+F 1 "1.0nH" V 5400 3300 50  0000 C CNN
+F 2 "C_0402" H 5300 3300 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_high-frequency_mlg1005s_en.pdf" H 5300 3300 50  0001 C CNN
+F 4 "445-3035-1-ND" H 5300 3300 60  0001 C CNN "Digikey#"
+	1    5300 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L?
+U 1 1 5838B294
+P 5300 3400
+F 0 "L?" V 5500 3400 50  0000 C CNN
+F 1 "2 nF" V 5400 3400 50  0000 C CNN
+F 2 "C_0402" H 5300 3400 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_high-frequency_mlg1005s_en.pdf" H 5300 3400 50  0001 C CNN
+F 4 "445-3042-1-ND" H 5300 3400 60  0001 C CNN "Digikey#"
+	1    5300 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L INDUCTOR L?
+U 1 1 5838BEF5
+P 8300 3400
+F 0 "L?" V 8500 3400 50  0000 C CNN
+F 1 "1.5nH" V 8400 3400 50  0000 C CNN
+F 2 "C_0402" H 8300 3400 50  0001 C CNN
+F 3 "http://www.abracon.com/Magnetics/new/AIMC-0402.pdf" H 8300 3400 50  0001 C CNN
+F 4 "535-11505-1-ND" H 8300 3400 60  0001 C CNN "Digikey#"
+	1    8300 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L?
+U 1 1 5838CCFA
+P 9500 3700
+F 0 "L?" V 9600 3500 50  0000 C CNN
+F 1 "1.0nH" V 9600 3700 50  0000 C CNN
+F 2 "C_0402" H 9500 3700 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_high-frequency_mlg1005s_en.pdf" H 9500 3700 50  0001 C CNN
+F 4 "445-3035-1-ND" H 9500 3700 60  0001 C CNN "Digikey#"
+	1    9500 3700
+	1    0    0    -1  
+$EndComp
+Text HLabel 2450 2550 0    60   Input ~ 0
+VREG_EN
+Text HLabel 2450 3100 0    60   Input ~ 0
+SO
+Text HLabel 2450 2800 0    60   Input ~ 0
+CSn
+Text HLabel 2450 2900 0    60   Input ~ 0
+SCLK
+Text HLabel 2450 3000 0    60   Input ~ 0
+SI
+Text HLabel 2450 3300 0    60   Input ~ 0
+GPIO0
+Text HLabel 2450 3800 0    60   Input ~ 0
+GPIO5
+Text HLabel 2450 3400 0    60   Input ~ 0
+GPIO1
+Text HLabel 2450 3500 0    60   Input ~ 0
+GPIO2
+Text HLabel 2450 3600 0    60   Input ~ 0
+GPIO3
+Text HLabel 2450 3700 0    60   Input ~ 0
+GPIO4
+$Comp
+L R R1
+U 1 1 58349A84
+P 1900 3350
+F 0 "R1" V 1980 3350 50  0000 C CNN
+F 1 "1M" V 1900 3350 50  0000 C CNN
+F 2 "R_0402" H 1830 3350 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1900 3350 50  0001 C CNN
+F 4 "RMCF0402JT1M00CT-ND" H 1900 3350 60  0001 C CNN "Digikey#"
+	1    1900 3350
+	1    0    0    -1  
+$EndComp
+Text Label 6750 4600 1    60   ~ 0
+PAEN
+Text Label 6850 4600 1    60   ~ 0
+EN
+Text Label 6950 4600 1    60   ~ 0
+HGM
+$Comp
+L R R?
+U 1 1 584D6395
+P 6750 4800
+F 0 "R?" V 6830 4800 50  0000 C CNN
+F 1 "330" V 6750 4800 50  0000 C CNN
+F 2 "R_0402" V 6680 4800 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 6750 4800 50  0001 C CNN
+F 4 "311-330JRCT-ND" H 6750 4800 60  0001 C CNN "Digikey#"
+	1    6750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 584E0D86
+P 5450 4600
+F 0 "R?" V 5530 4600 50  0000 C CNN
+F 1 "0" V 5450 4600 50  0000 C CNN
+F 2 "R_0402" V 5380 4600 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5450 4600 50  0001 C CNN
+F 4 "RMCF0402ZT0R00CT-ND" H 5450 4600 60  0001 C CNN "Digikey#"
+	1    5450 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 584E2465
+P 5450 4750
+F 0 "R?" V 5530 4750 50  0000 C CNN
+F 1 "0" V 5450 4750 50  0000 C CNN
+F 2 "R_0402" V 5380 4750 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5450 4750 50  0001 C CNN
+F 4 "RMCF0402ZT0R00CT-ND" H 5450 4750 60  0001 C CNN "Digikey#"
+	1    5450 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 584E2523
+P 5450 4900
+F 0 "R?" V 5530 4900 50  0000 C CNN
+F 1 "0" V 5450 4900 50  0000 C CNN
+F 2 "R_0402" V 5380 4900 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5450 4900 50  0001 C CNN
+F 4 "RMCF0402ZT0R00CT-ND" H 5450 4900 60  0001 C CNN "Digikey#"
+	1    5450 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 584E25C5
+P 5450 5050
+F 0 "R?" V 5530 5050 50  0000 C CNN
+F 1 "0" V 5450 5050 50  0000 C CNN
+F 2 "R_0402" V 5380 5050 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5450 5050 50  0001 C CNN
+F 4 "RMCF0402ZT0R00CT-ND" H 5450 5050 60  0001 C CNN "Digikey#"
+	1    5450 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 584E28F5
+P 5450 5200
+F 0 "R?" V 5530 5200 50  0000 C CNN
+F 1 "0" V 5450 5200 50  0000 C CNN
+F 2 "R_0402" V 5380 5200 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5450 5200 50  0001 C CNN
+F 4 "RMCF0402ZT0R00CT-ND" H 5450 5200 60  0001 C CNN "Digikey#"
+	1    5450 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 584E29A9
+P 5450 5350
+F 0 "R?" V 5530 5350 50  0000 C CNN
+F 1 "0" V 5450 5350 50  0000 C CNN
+F 2 "R_0402" V 5380 5350 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5450 5350 50  0001 C CNN
+F 4 "RMCF0402ZT0R00CT-ND" H 5450 5350 60  0001 C CNN "Digikey#"
+	1    5450 5350
+	0    1    1    0   
+$EndComp
+Text Label 5800 4600 0    60   ~ 0
+PAEN
+Text Label 5800 4900 0    60   ~ 0
+EN
+Text Label 5800 5200 0    60   ~ 0
+HGM
+Text HLabel 5200 4600 0    60   Input ~ 0
+GPIO5
+Text HLabel 5200 4900 0    60   Input ~ 0
+GPIO4
+Text HLabel 5200 5200 0    60   Input ~ 0
+GPIO3
+Text HLabel 5200 4750 0    60   Input ~ 0
+P0.6
+Text HLabel 5200 5050 0    60   Input ~ 0
+P2.5
+Text HLabel 5200 5350 0    60   Input ~ 0
+P2.4
+$Comp
+L C C?
+U 1 1 584E9FD7
+P 6450 1850
+F 0 "C?" H 6475 1950 50  0000 L CNN
+F 1 "1nF" H 6475 1750 50  0000 L CNN
+F 2 "C_0402" H 6488 1700 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_15.pdf" H 6450 1850 50  0001 C CNN
+F 4 "311-1036-1-ND" H 6450 1850 60  0001 C CNN "Digikey#"
+	1    6450 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L?
+U 1 1 584EBE83
+P 5300 1500
+F 0 "L?" V 5500 1500 50  0000 C CNN
+F 1 "1 K" V 5400 1500 50  0000 C CNN
+F 2 "C_0402" H 5300 1500 50  0001 C CNN
+F 3 "http://cdn.lairdtech.com/home/brandworld/files/Catalog_EMI%20Filtering%20&%20RF%20Inductors.pdf" H 5300 1500 50  0001 C CNN
+F 4 "240-2555-1-ND" H 5300 1500 60  0001 C CNN "Digikey#"
+	1    5300 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C?
+U 1 1 584ED152
+P 5650 1750
+F 0 "C?" H 5675 1850 50  0000 L CNN
+F 1 "2.2uF/4V" H 5675 1650 50  0000 L CNN
+F 2 "C_0402" H 5688 1600 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 5650 1750 50  0001 C CNN
+F 4 "445-3882-1-ND" H 5650 1750 60  0001 C CNN "Digikey#"
+	1    5650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 584F31CB
+P 5650 1950
+F 0 "#PWR?" H 5650 1950 30  0001 C CNN
+F 1 "GND" H 5650 1880 30  0001 C CNN
+F 2 "" H 5650 1950 60  0000 C CNN
+F 3 "" H 5650 1950 60  0000 C CNN
+	1    5650 1950
+	1    0    0    -1  
+$EndComp
+Text Label 7050 2200 1    60   ~ 0
+TL131
+Text Notes 7150 2500 1    60   ~ 0
+TLINE inductor
+$Comp
+L INDUCTOR L?
+U 1 1 584F89CD
+P 7850 1850
+F 0 "L?" V 7800 1850 50  0000 C CNN
+F 1 "5.1nH" V 7950 1850 50  0000 C CNN
+F 2 "C_0402" H 7850 1850 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_high-frequency_mlk1005_en.pdf" H 7850 1850 50  0001 C CNN
+F 4 "445-6360-1-ND" H 7850 1850 60  0001 C CNN "Digikey#"
+	1    7850 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L?
+U 1 1 584FBC83
+P 8250 2200
+F 0 "L?" V 8200 2200 50  0000 C CNN
+F 1 "1.1nH" V 8350 2200 50  0000 C CNN
+F 2 "C_0402" H 8250 2200 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_high-frequency_mlk1005_en.pdf" H 8250 2200 50  0001 C CNN
+F 4 "445-6352-1-ND" H 8250 2200 60  0001 C CNN "Digikey#"
+	1    8250 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C?
+U 1 1 584FC11B
+P 8800 2200
+F 0 "C?" H 8825 2300 50  0000 L CNN
+F 1 "15pF" H 8825 2100 50  0000 L CNN
+F 2 "C_0402" H 8838 2050 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/MLCC/UPY-GP_NP0_16V-to-50V_14.pdf" H 8800 2200 50  0001 C CNN
+F 4 "311-1017-1-ND" H 8800 2200 60  0001 C CNN "Digikey#"
+	1    8800 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 584FCF3F
+P 9050 2200
+F 0 "#PWR?" H 9050 2200 30  0001 C CNN
+F 1 "GND" H 9050 2130 30  0001 C CNN
+F 2 "" H 9050 2200 60  0000 C CNN
+F 3 "" H 9050 2200 60  0000 C CNN
+	1    9050 2200
+	0    -1   -1   0   
+$EndComp
+Text Label 7850 2550 1    60   ~ 0
+TL101
+Text Notes 7950 2900 1    60   ~ 0
+TLINE inductor
+$Comp
+L GND #PWR?
+U 1 1 584FE82A
+P 5450 2600
+F 0 "#PWR?" H 5450 2600 30  0001 C CNN
+F 1 "GND" H 5450 2530 30  0001 C CNN
+F 2 "" H 5450 2600 60  0000 C CNN
+F 3 "" H 5450 2600 60  0000 C CNN
+	1    5450 2600
+	0    1    1    0   
+$EndComp
+Text Notes 6050 3250 1    60   ~ 0
+TLINE inductor
+Text Label 5950 2850 1    60   ~ 0
+TL11
 Wire Wire Line
 	9600 2700 9700 2700
 Wire Wire Line
@@ -575,17 +895,11 @@ Wire Wire Line
 Wire Wire Line
 	4500 4100 4550 4100
 Wire Wire Line
-	4500 3900 4550 3900
-Wire Wire Line
 	4150 3900 4200 3900
-Wire Wire Line
-	4150 3300 4250 3300
 Wire Wire Line
 	3850 1700 3850 2300
 Wire Wire Line
 	3750 2100 3750 2300
-Wire Wire Line
-	3100 1400 3100 1350
 Wire Wire Line
 	3750 1800 3750 1750
 Wire Wire Line
@@ -607,34 +921,18 @@ Wire Wire Line
 	3650 2300 3650 2200
 Connection ~ 3650 2200
 Connection ~ 1900 2200
+Connection ~ 1750 3750
+Connection ~ 1750 4350
 Wire Wire Line
-	1350 3450 1350 3400
+	1250 3950 1450 3950
 Wire Wire Line
-	2550 4000 2100 4000
+	1250 4150 1450 4150
 Wire Wire Line
-	2100 4000 2100 3750
+	1350 3750 1350 3950
+Connection ~ 1350 3950
 Wire Wire Line
-	2100 3750 1750 3750
-Wire Wire Line
-	2550 4100 2100 4100
-Wire Wire Line
-	2100 4100 2100 4350
-Wire Wire Line
-	2100 4350 1750 4350
-Connection ~ 1850 3750
-Connection ~ 1850 4350
-Wire Wire Line
-	1350 3950 1550 3950
-Wire Wire Line
-	1350 4150 1550 4150
-Wire Wire Line
-	1450 3750 1450 3950
-Connection ~ 1450 3950
-Wire Wire Line
-	1450 4350 1450 4150
-Connection ~ 1450 4150
-Wire Wire Line
-	1700 2700 1700 2650
+	1350 4350 1350 4150
+Connection ~ 1350 4150
 Wire Wire Line
 	7400 4350 7400 4550
 Wire Wire Line
@@ -644,120 +942,25 @@ Wire Wire Line
 Wire Wire Line
 	7800 3600 7900 3600
 Connection ~ 7900 3600
-Connection ~ 7900 3300
 Wire Wire Line
 	7050 4350 7050 4450
 Wire Wire Line
 	7050 4450 7400 4450
 Connection ~ 7400 4450
-$Comp
-L R R4
-U 1 1 583540C5
-P 6850 2300
-F 0 "R4" V 6930 2300 50  0000 C CNN
-F 1 "4.3k 1%" V 6850 2300 50  0000 C CNN
-F 2 "R_0402" H 6780 2300 50  0001 C CNN
-F 3 "" H 6850 2300 50  0000 C CNN
-F 4 "311-4.30KLRCT-ND" H 6850 2300 60  0001 C CNN "Digikey#"
-	1    6850 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6850 2150 6850 2100
 Wire Wire Line
 	6850 2550 6850 2450
-$Comp
-L C C9
-U 1 1 583545EA
-P 6450 2450
-F 0 "C9" H 6475 2550 50  0000 L CNN
-F 1 "1nF" H 6475 2350 50  0000 L CNN
-F 2 "C_0402" H 6488 2300 50  0001 C CNN
-F 3 "" H 6450 2450 50  0000 C CNN
-F 4 "311-1036-1-ND" H 6450 2450 60  0001 C CNN "Digikey#"
-	1    6450 2450
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6750 2550 6750 2450
 Wire Wire Line
 	6750 2450 6600 2450
 Wire Wire Line
-	6300 2450 6150 2450
-$Comp
-L INDUCTOR L?
-U 1 1 58356107
-P 1400 2200
-F 0 "L?" V 1350 2200 50  0000 C CNN
-F 1 "1K" V 1500 2200 50  0000 C CNN
-F 2 "" H 1400 2200 50  0000 C CNN
-F 3 "http://cdn.lairdtech.com/home/brandworld/files/Catalog_EMI%20Filtering%20&%20RF%20Inductors.pdf" H 1400 2200 50  0001 C CNN
-F 4 "240-2555-1-ND" H 1400 2200 60  0001 C CNN "Digikey#"
-	1    1400 2200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
 	1100 2200 1000 2200
-$Comp
-L INDUCTOR L?
-U 1 1 58389C11
-P 4800 3000
-F 0 "L?" V 4750 3000 50  0000 C CNN
-F 1 "1 nF" V 4900 3000 50  0000 C CNN
-F 2 "" H 4800 3000 50  0000 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_high-frequency_mlg1005s_en.pdf" H 4800 3000 50  0001 C CNN
-F 4 "445-3035-1-ND" H 4800 3000 60  0001 C CNN "Digikey#"
-	1    4800 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L INDUCTOR L?
-U 1 1 5838AB71
-P 4800 3700
-F 0 "L?" V 4750 3700 50  0000 C CNN
-F 1 "1 nF" V 4900 3700 50  0000 C CNN
-F 2 "" H 4800 3700 50  0000 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_high-frequency_mlg1005s_en.pdf" H 4800 3700 50  0001 C CNN
-F 4 "445-3035-1-ND" H 4800 3700 60  0001 C CNN "Digikey#"
-	1    4800 3700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4350 3400 4150 3400
-Wire Wire Line
-	4650 3400 5000 3400
 Wire Wire Line
 	4500 3300 5000 3300
-Wire Wire Line
-	4800 2700 4800 2650
-Wire Wire Line
-	4800 4000 4800 4050
-$Comp
-L INDUCTOR L?
-U 1 1 5838B199
-P 5300 3300
-F 0 "L?" V 5500 3300 50  0000 C CNN
-F 1 "1 nF" V 5400 3300 50  0000 C CNN
-F 2 "" H 5300 3300 50  0000 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_high-frequency_mlg1005s_en.pdf" H 5300 3300 50  0001 C CNN
-F 4 "445-3035-1-ND" H 5300 3300 60  0001 C CNN "Digikey#"
-	1    5300 3300
-	0    -1   -1   0   
-$EndComp
-Connection ~ 4800 3300
-$Comp
-L INDUCTOR L?
-U 1 1 5838B294
-P 5300 3400
-F 0 "L?" V 5500 3400 50  0000 C CNN
-F 1 "2 nF" V 5400 3400 50  0000 C CNN
-F 2 "" H 5300 3400 50  0000 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_high-frequency_mlg1005s_en.pdf" H 5300 3400 50  0001 C CNN
-F 4 "445-3042-1-ND" H 5300 3400 60  0001 C CNN "Digikey#"
-	1    5300 3400
-	0    1    1    0   
-$EndComp
-Connection ~ 4800 3400
+Connection ~ 4950 3300
+Connection ~ 4950 3400
 Wire Wire Line
 	6000 3400 5600 3400
 Wire Wire Line
@@ -766,30 +969,6 @@ Wire Wire Line
 	5800 3300 5800 3600
 Wire Wire Line
 	5800 3600 6000 3600
-$Comp
-L INDUCTOR L?
-U 1 1 5838BEF5
-P 8300 3400
-F 0 "L?" V 8500 3400 50  0000 C CNN
-F 1 "1 nF" V 8400 3400 50  0000 C CNN
-F 2 "" H 8300 3400 50  0000 C CNN
-F 3 "http://www.abracon.com/Magnetics/new/AIMC-0402.pdf" H 8300 3400 50  0001 C CNN
-F 4 "535-11505-1-ND" H 8300 3400 60  0001 C CNN "Digikey#"
-	1    8300 3400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L INDUCTOR L?
-U 1 1 5838CCFA
-P 9500 3700
-F 0 "L?" V 9600 3500 50  0000 C CNN
-F 1 "1 nF" V 9600 3700 50  0000 C CNN
-F 2 "" H 9500 3700 50  0000 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_high-frequency_mlg1005s_en.pdf" H 9500 3700 50  0001 C CNN
-F 4 "445-3035-1-ND" H 9500 3700 60  0001 C CNN "Digikey#"
-	1    9500 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7800 3400 8000 3400
 Wire Wire Line
@@ -807,20 +986,196 @@ Wire Wire Line
 	9500 4000 9500 4100
 Wire Wire Line
 	9900 3400 9900 2700
-Wire Wire Line
-	1700 2350 1700 2200
 Connection ~ 1700 2200
-Text HLabel 2400 2750 0    60   Input ~ 0
-VREG_EN
 Wire Wire Line
 	1900 2250 1900 2200
 Wire Wire Line
 	1900 2550 1900 2600
 Wire Wire Line
 	1900 2600 2550 2600
-Wire Wire Line
-	2400 2750 2500 2750
-Wire Wire Line
-	2500 2750 2500 2600
 Connection ~ 2500 2600
+Wire Wire Line
+	1700 2200 1700 2300
+Wire Wire Line
+	1700 2600 1700 2650
+Wire Wire Line
+	1900 3500 1900 3550
+Wire Wire Line
+	2550 2800 2450 2800
+Wire Wire Line
+	2450 2900 2550 2900
+Wire Wire Line
+	2450 3000 2550 3000
+Wire Wire Line
+	2550 3100 2450 3100
+Connection ~ 2500 3100
+Wire Wire Line
+	2450 3300 2550 3300
+Wire Wire Line
+	2450 3400 2550 3400
+Wire Wire Line
+	2450 3500 2550 3500
+Wire Wire Line
+	2450 3600 2550 3600
+Wire Wire Line
+	2450 3700 2550 3700
+Wire Wire Line
+	2450 3800 2550 3800
+Wire Wire Line
+	2500 3100 2500 3150
+Wire Wire Line
+	2500 3150 1900 3150
+Wire Wire Line
+	1900 3150 1900 3200
+Wire Wire Line
+	2550 4000 1950 4000
+Wire Wire Line
+	1950 4000 1950 3750
+Wire Wire Line
+	1950 3750 1650 3750
+Wire Wire Line
+	2550 4100 1950 4100
+Wire Wire Line
+	1950 4100 1950 4350
+Wire Wire Line
+	1950 4350 1650 4350
+Wire Wire Line
+	2450 2550 2500 2550
+Wire Wire Line
+	2500 2550 2500 2600
+Wire Wire Line
+	3350 4300 3350 4450
+Wire Wire Line
+	4500 3900 4650 3900
+Wire Wire Line
+	4200 3300 4150 3300
+Wire Wire Line
+	4950 2650 4950 2700
+Wire Wire Line
+	4800 3400 5000 3400
+Wire Wire Line
+	4500 3400 4150 3400
+Wire Wire Line
+	4950 4000 4950 4050
+Wire Wire Line
+	6750 4350 6750 4650
+Wire Wire Line
+	6850 4600 6850 4350
+Wire Wire Line
+	6950 4600 6950 4350
+Wire Wire Line
+	6750 5050 6750 4950
+Wire Wire Line
+	5800 4600 5600 4600
+Wire Wire Line
+	5800 4900 5600 4900
+Wire Wire Line
+	5800 5200 5600 5200
+Wire Wire Line
+	5700 4600 5700 4750
+Wire Wire Line
+	5700 4750 5600 4750
+Connection ~ 5700 4600
+Wire Wire Line
+	5700 4900 5700 5050
+Wire Wire Line
+	5700 5050 5600 5050
+Connection ~ 5700 4900
+Wire Wire Line
+	5700 5200 5700 5350
+Wire Wire Line
+	5700 5350 5600 5350
+Connection ~ 5700 5200
+Wire Wire Line
+	5300 4600 5200 4600
+Wire Wire Line
+	5300 4900 5200 4900
+Wire Wire Line
+	5300 5200 5200 5200
+Wire Wire Line
+	5300 4750 5200 4750
+Wire Wire Line
+	5300 5050 5200 5050
+Wire Wire Line
+	5300 5350 5200 5350
+Wire Wire Line
+	6950 2550 6950 2500
+Wire Wire Line
+	7050 2550 7050 1500
+Wire Wire Line
+	5600 1500 7850 1500
+Wire Wire Line
+	7050 1850 6600 1850
+Connection ~ 7050 1850
+Wire Wire Line
+	6200 1850 6300 1850
+Wire Wire Line
+	6200 2450 6300 2450
+Wire Wire Line
+	5650 1600 5650 1500
+Connection ~ 5650 1500
+Wire Wire Line
+	5650 1900 5650 1950
+Wire Wire Line
+	7800 3500 7850 3500
+Wire Wire Line
+	7850 3500 7850 2150
+Wire Wire Line
+	7850 1500 7850 1550
+Connection ~ 7050 1500
+Wire Wire Line
+	7950 2200 7850 2200
+Connection ~ 7850 2200
+Wire Wire Line
+	8550 2200 8650 2200
+Wire Wire Line
+	9050 2200 8950 2200
+Wire Wire Line
+	5550 2600 5450 2600
+Wire Wire Line
+	6000 3300 5950 3300
+Wire Wire Line
+	5950 3300 5950 1500
+Connection ~ 5950 1500
+Connection ~ 5950 2600
+Wire Wire Line
+	5950 2600 5850 2600
+$Comp
+L C C?
+U 1 1 5850220F
+P 5700 2600
+F 0 "C?" H 5725 2700 50  0000 L CNN
+F 1 "1nF" H 5725 2500 50  0000 L CNN
+F 2 "C_0402" H 5738 2450 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_15.pdf" H 5700 2600 50  0001 C CNN
+F 4 "311-1036-1-ND" H 5700 2600 60  0001 C CNN "Digikey#"
+	1    5700 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5850A8DA
+P 4900 1500
+F 0 "#PWR?" H 4900 1350 50  0001 C CNN
+F 1 "+5V" H 4900 1640 50  0000 C CNN
+F 2 "" H 4900 1500 50  0000 C CNN
+F 3 "" H 4900 1500 50  0000 C CNN
+	1    4900 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 1500 4900 1500
+$Comp
+L GND #PWR?
+U 1 1 5850CC8D
+P 3850 1350
+F 0 "#PWR?" H 3850 1350 30  0001 C CNN
+F 1 "GND" H 3850 1280 30  0001 C CNN
+F 2 "" H 3850 1350 60  0000 C CNN
+F 3 "" H 3850 1350 60  0000 C CNN
+	1    3850 1350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 1400 3850 1350
 $EndSCHEMATC

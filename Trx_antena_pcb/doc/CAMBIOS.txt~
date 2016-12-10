@@ -1,0 +1,20 @@
+Historial de cambios realizados 
+================================
+
+* Fecha: 02/12/16
+* Autores: Juan Vicente Montilla
+* Archivos: 
+* Descripción: Se parte de los Modelos de Ponchos en: 
+               http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=desarrollo:edu-ciaa:ponchos_modelos
+               <<Primeras correcciones:
+-Completado del rotulo
+-Archivo de hoja de proyecto movido a /doc y completado
+-Creacion de archivo de revisiones en /doc
+-Asignacion de revisor designado
+-Corrección de gitignore duplicado
+-Se quitan las bibliotecas no utilizadas
+-Se define la jerarquia del circuito
+->>
+
+
+

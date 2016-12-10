@@ -44,119 +44,92 @@ http://www.proyecto-ciaa.com.ar/
 $Comp
 L Conn_PonchoMP_2x_20x2 XA1
 U 11 1 560E5596
-P 4600 6000
-F 0 "XA1" H 4500 6500 60  0000 C CNN
-F 1 "Conn_PonchoMP_2x_20x2" H 4250 6400 60  0000 C CNN
-F 2 "Poncho_Esqueleto:Conn_Poncho_Izquierdo" H 3800 5300 60  0000 C CNN
-F 3 "" H 4450 6350 60  0000 C CNN
-	11   4600 6000
+P 4700 3800
+F 0 "XA1" H 4600 4300 60  0000 C CNN
+F 1 "Conn_PonchoMP_2x_20x2" H 4350 4200 60  0000 C CNN
+F 2 "Poncho_Esqueleto:Conn_Poncho_Izquierdo" H 3900 3100 60  0000 C CNN
+F 3 "" H 4550 4150 60  0000 C CNN
+	11   4700 3800
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	4500 4200 4750 4200
-Wire Wire Line
-	4750 4300 4500 4300
-NoConn ~ 4150 6100
-NoConn ~ 4150 6300
-NoConn ~ 4150 6400
-NoConn ~ 4150 6500
-NoConn ~ 4150 5700
-NoConn ~ 4150 5900
 Text Notes 7000 3950 0    60   ~ 0
 Luego de abrir el nuevo proyecto:\n1)Editar datos del rótulo.\n2)Editar los archivos del subdirectorio "doc".\n2.1) Agregarse en el archivo de licencia.\n2.2) Colocar info mínima del Poncho en el LEEME.txt\n2.3) Colocar info mínima en el CAMBIOS.doc
 $Comp
 L Conn_PonchoMP_2x_20x2 XA1
 U 10 1 560E54EF
-P 4150 4200
-F 0 "XA1" H 4050 4500 60  0000 C CNN
-F 1 "Conn_PonchoMP_2x_20x2" H 3750 4400 60  0000 C CNN
-F 2 "Poncho_Esqueleto:Conn_Poncho_Izquierdo" H 3400 3900 60  0000 C CNN
-F 3 "" H 4000 4550 60  0000 C CNN
-	10   4150 4200
-	1    0    0    1   
+P 2950 3100
+F 0 "XA1" H 2850 3400 60  0000 C CNN
+F 1 "Conn_PonchoMP_2x_20x2" H 2550 3300 60  0000 C CNN
+F 2 "Poncho_Esqueleto:Conn_Poncho_Izquierdo" H 2200 2800 60  0000 C CNN
+F 3 "" H 2800 3450 60  0000 C CNN
+	10   2950 3100
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4750 4100 4500 4100
-Connection ~ 3850 2100
 $Comp
 L PWR_FLAG #FLG1
 U 1 1 560EE826
-P 3600 2100
-F 0 "#FLG1" H 3600 2195 30  0001 C CNN
-F 1 "PWR_FLAG" H 3600 2280 30  0000 C CNN
-F 2 "" H 3600 2100 60  0000 C CNN
-F 3 "" H 3600 2100 60  0000 C CNN
-	1    3600 2100
+P 3750 1050
+F 0 "#FLG1" H 3750 1145 30  0001 C CNN
+F 1 "PWR_FLAG" H 3750 1230 30  0000 C CNN
+F 2 "" H 3750 1050 60  0000 C CNN
+F 3 "" H 3750 1050 60  0000 C CNN
+	1    3750 1050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3850 2100 3850 2000
-Wire Wire Line
-	3600 2100 4200 2100
 $Comp
 L +5VP #PWR2
 U 1 1 560EE7D3
-P 3850 2000
-F 0 "#PWR2" H 3850 2090 20  0001 C CNN
-F 1 "+5VP" H 3850 2090 30  0000 C CNN
-F 2 "" H 3850 2000 60  0000 C CNN
-F 3 "" H 3850 2000 60  0000 C CNN
-	1    3850 2000
+P 4000 950
+F 0 "#PWR2" H 4000 1040 20  0001 C CNN
+F 1 "+5VP" H 4000 1040 30  0000 C CNN
+F 2 "" H 4000 950 60  0000 C CNN
+F 3 "" H 4000 950 60  0000 C CNN
+	1    4000 950 
 	1    0    0    -1  
 $EndComp
-Connection ~ 5300 2100
-Wire Wire Line
-	5100 2000 5800 2000
-Wire Wire Line
-	5300 2000 5300 2200
-Wire Wire Line
-	5100 2100 5300 2100
 $Comp
 L GND #PWR5
 U 1 1 560EE345
-P 5300 2200
-F 0 "#PWR5" H 5300 2200 30  0001 C CNN
-F 1 "GND" H 5300 2130 30  0001 C CNN
-F 2 "" H 5300 2200 60  0000 C CNN
-F 3 "" H 5300 2200 60  0000 C CNN
-	1    5300 2200
+P 5450 1150
+F 0 "#PWR5" H 5450 1150 30  0001 C CNN
+F 1 "GND" H 5450 1080 30  0001 C CNN
+F 2 "" H 5450 1150 60  0000 C CNN
+F 3 "" H 5450 1150 60  0000 C CNN
+	1    5450 1150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5100 2200
-NoConn ~ 5100 2300
-NoConn ~ 5100 2400
-NoConn ~ 5100 2500
-NoConn ~ 5100 2600
-NoConn ~ 4200 2500
-NoConn ~ 4200 2000
+NoConn ~ 5250 1150
+NoConn ~ 5250 1250
+NoConn ~ 5250 1350
+NoConn ~ 5250 1450
+NoConn ~ 5250 1550
+NoConn ~ 4350 1450
+NoConn ~ 4350 950 
 $Comp
 L Conn_PonchoMP_2x_20x2 XA1
 U 2 1 560EE110
-P 4650 2300
-F 0 "XA1" H 4500 2850 60  0000 C CNN
-F 1 "Conn_PonchoMP_2x_20x2" H 4950 2750 60  0000 C CNN
-F 2 "Poncho_Esqueleto:Conn_Poncho_Izquierdo" H 4000 1750 60  0000 C CNN
-F 3 "" H 4500 2650 60  0000 C CNN
-	2    4650 2300
+P 4800 1250
+F 0 "XA1" H 4650 1800 60  0000 C CNN
+F 1 "Conn_PonchoMP_2x_20x2" H 5100 1700 60  0000 C CNN
+F 2 "Poncho_Esqueleto:Conn_Poncho_Izquierdo" H 4150 700 60  0000 C CNN
+F 3 "" H 4650 1600 60  0000 C CNN
+	2    4800 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG2
 U 1 1 560EDE73
-P 5800 1950
-F 0 "#FLG2" H 5800 2045 30  0001 C CNN
-F 1 "PWR_FLAG" H 5800 2130 30  0000 C CNN
-F 2 "" H 5800 1950 60  0000 C CNN
-F 3 "" H 5800 1950 60  0000 C CNN
-	1    5800 1950
+P 5950 900
+F 0 "#FLG2" H 5950 995 30  0001 C CNN
+F 1 "PWR_FLAG" H 5950 1080 30  0000 C CNN
+F 2 "" H 5950 900 60  0000 C CNN
+F 3 "" H 5950 900 60  0000 C CNN
+	1    5950 900 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5800 2000 5800 1950
-Connection ~ 5300 2000
-NoConn ~ 4200 2400
-NoConn ~ 4200 2300
-NoConn ~ 4200 2200
+NoConn ~ 4350 1350
+NoConn ~ 4350 1250
+NoConn ~ 4350 1150
 $Comp
 L PCB_HOLE H2
 U 1 1 5613C2CE
@@ -184,20 +157,53 @@ NoConn ~ 8550 5950
 Text Notes 7450 5650 0    60   ~ 0
 Agujeros para visualización de LEDs
 $Sheet
-S 800  2400 800  2750
+S 950  2800 800  2750
 U 582F8126
 F0 "Radio" 60
 F1 "Radio.sch" 60
-F2 "SO" O R 1600 2700 60 
-F3 "SI" I R 1600 2800 60 
-F4 "VREG_EN" I R 1600 2600 60 
-F5 "SCLK" I R 1600 2900 60 
-F6 "GPIO5" B R 1600 3000 60 
-F7 "GPIO4" B R 1600 3100 60 
-F8 "GPIO3" B R 1600 3200 60 
-F9 "GPIO2" B R 1600 3300 60 
-F10 "GPIO1" B R 1600 3400 60 
-F11 "GPIO0" B R 1600 3500 60 
-F12 "RST" I R 1600 3600 60 
+F2 "SO" O R 1750 3000 60 
+F3 "SI" I R 1750 3100 60 
+F4 "VREG_EN" I R 1750 2850 60 
+F5 "SCLK" I R 1750 3300 60 
+F6 "GPIO0" B R 1750 3500 60 
+F7 "GPIO1" B R 1750 3600 60 
+F8 "GPIO2" B R 1750 3700 60 
+F9 "GPIO3" B R 1750 3800 60 
+F10 "GPIO4" B R 1750 3900 60 
+F11 "GPIO5" B R 1750 4000 60 
+F12 "RST" I R 1750 4200 60 
+F13 "CSn" I R 1750 3200 60 
 $EndSheet
+$Comp
+L Conn_PonchoMP_2x_20x2 XA?
+U 12 1 584DA9F1
+P 3150 5500
+F 0 "XA?" H 3000 6050 60  0000 C CNN
+F 1 "Conn_PonchoMP_2x_20x2" H 3450 5950 60  0000 C CNN
+F 2 "Poncho_Esqueleto:Conn_Poncho_Izquierdo" H 2500 4950 60  0000 C CNN
+F 3 "" H 3000 5850 60  0000 C CNN
+	12   3150 5500
+	1    0    0    -1  
+$EndComp
+Text HLabel 1750 4500 0    60   Input ~ 0
+P0.6
+Text HLabel 1750 4600 0    60   Input ~ 0
+P2.5
+Text HLabel 1750 4700 0    60   Input ~ 0
+P2.4
+Connection ~ 4000 1050
+Wire Wire Line
+	4000 1050 4000 950 
+Wire Wire Line
+	3750 1050 4350 1050
+Connection ~ 5450 1050
+Wire Wire Line
+	5250 950  5950 950 
+Wire Wire Line
+	5450 950  5450 1150
+Wire Wire Line
+	5250 1050 5450 1050
+Wire Wire Line
+	5950 950  5950 900 
+Connection ~ 5450 950 
 $EndSCHEMATC
