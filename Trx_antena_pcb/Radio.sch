@@ -763,11 +763,11 @@ GPIO4
 Text HLabel 5200 5200 0    60   Input ~ 0
 GPIO3
 Text HLabel 5200 4750 0    60   Input ~ 0
-P0.6
+GPIO6
 Text HLabel 5200 5050 0    60   Input ~ 0
-P2.5
+GPIO7
 Text HLabel 5200 5350 0    60   Input ~ 0
-P2.4
+GPIO8
 $Comp
 L C C?
 U 1 1 584E9FD7
