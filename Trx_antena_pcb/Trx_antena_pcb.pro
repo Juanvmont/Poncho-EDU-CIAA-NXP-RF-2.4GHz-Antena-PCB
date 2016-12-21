@@ -1,4 +1,4 @@
-update=mar 13 dic 2016 11:05:58 ART
+update=mié 21 dic 2016 14:49:43 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -29,5 +29,3 @@ version=1
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=device

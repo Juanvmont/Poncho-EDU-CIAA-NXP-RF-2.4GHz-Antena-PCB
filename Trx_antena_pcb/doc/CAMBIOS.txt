@@ -1,13 +1,12 @@
 Historial de cambios realizados 
 ================================
 
-* Fecha: 02/12/16
+* Fecha: 30/11/16
 * Autores: Juan Vicente Montilla
 * Archivos: 
 * Descripción: Curso de Diseño de PCBs - CESE
-Se parte de los Modelos de Ponchos en: 
-http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=desarrollo:edu-ciaa:ponchos_modelos
-               <<Primeras correcciones:
+
+               <<Primeras correcciones: 30/11/16
 -Completado del rotulo
 -Archivo de hoja de proyecto movido a /doc y completado
 -Creacion de archivo de revisiones en /doc
@@ -17,10 +16,23 @@ http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=desarrollo:edu-ciaa:ponchos_
 -Se define la jerarquia del circuito
 ->>
 
-               <<Segundas correcciones:
+               <<Segundas correcciones: 02/12/16
 -Correccion del rotulo
 -Layout-Review-Techniques by TI en /doc
 -Correccion de Licencia
 ->>
 
+               <<Terceras correcciones: 12/12/16
+-Completado esquematico
+->>
+
+               <<Cuartas correcciones: 21/12/16
+-Archivos de revisiones en /doc
+-Mension a revisor designado en rotulo
+-Footprint de conectores invisibles
+-Se borra textos de ayuda
+-Se agrega informacion del circuito y la antena en A1
+-Se cablean seniales PAEN, EN y HGM
+-Se cambian sustitutos directos en componentes obsoletos
+->>
 

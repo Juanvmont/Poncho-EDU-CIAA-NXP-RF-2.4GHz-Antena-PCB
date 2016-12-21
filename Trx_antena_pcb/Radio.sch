@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:device
+LIBS:power
 LIBS:Trx_antena_pcb-cache
 EELAYER 25 0
 EELAYER END
@@ -174,13 +174,13 @@ $EndComp
 $Comp
 L GND #PWR015
 U 1 1 5830F17C
-P 6750 5050
-F 0 "#PWR015" H 6750 5050 30  0001 C CNN
-F 1 "GND" H 6750 4980 30  0001 C CNN
-F 2 "" H 6750 5050 60  0000 C CNN
-F 3 "" H 6750 5050 60  0000 C CNN
-	1    6750 5050
-	1    0    0    -1  
+P 6350 4750
+F 0 "#PWR015" H 6350 4750 30  0001 C CNN
+F 1 "GND" H 6350 4680 30  0001 C CNN
+F 2 "" H 6350 4750 60  0000 C CNN
+F 3 "" H 6350 4750 60  0000 C CNN
+	1    6350 4750
+	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR016
@@ -489,8 +489,8 @@ P 9050 3400
 F 0 "C15" H 9075 3500 50  0000 L CNN
 F 1 "6.8pF" H 9075 3300 50  0000 L CNN
 F 2 "C_0402" H 9088 3250 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Murata%20PDFs/Chip%20Monolithic%20Ceramic%20Caps.pdf" H 9050 3400 50  0001 C CNN
-F 4 "490-1276-1-ND" H 9050 3400 60  0001 C CNN "Digikey#"
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" H 9050 3400 50  0001 C CNN
+F 4 "490-5950-1-ND" H 9050 3400 60  0001 C CNN "Digikey#"
 	1    9050 3400
 	0    -1   -1   0   
 $EndComp
@@ -501,8 +501,8 @@ P 9300 3550
 F 0 "C16" H 9325 3650 50  0000 L CNN
 F 1 "2.7pF" H 9325 3450 50  0000 L CNN
 F 2 "C_0402" H 9338 3400 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Murata%20PDFs/Chip%20Monolithic%20Ceramic%20Caps.pdf" H 9300 3550 50  0001 C CNN
-F 4 "490-1269-1-ND" H 9300 3550 60  0001 C CNN "Digikey#"
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" H 9300 3550 50  0001 C CNN
+F 4 "490-5934-1-ND" H 9300 3550 60  0001 C CNN "Digikey#"
 	1    9300 3550
 	1    0    0    -1  
 $EndComp
@@ -669,76 +669,70 @@ HGM
 $Comp
 L R R8
 U 1 1 584D6395
-P 6750 4800
-F 0 "R8" V 6830 4800 50  0000 C CNN
-F 1 "330" V 6750 4800 50  0000 C CNN
-F 2 "R_0402" V 6680 4800 50  0001 C CNN
-F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 6750 4800 50  0001 C CNN
-F 4 "311-330JRCT-ND" H 6750 4800 60  0001 C CNN "Digikey#"
-	1    6750 4800
-	1    0    0    -1  
+P 6600 4750
+F 0 "R8" V 6680 4750 50  0000 C CNN
+F 1 "330" V 6600 4750 50  0000 C CNN
+F 2 "R_0402" V 6530 4750 50  0001 C CNN
+F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 6600 4750 50  0001 C CNN
+F 4 "311-330JRCT-ND" H 6600 4750 60  0001 C CNN "Digikey#"
+	1    6600 4750
+	0    1    1    0   
 $EndComp
 $Comp
 L R R4
 U 1 1 584E0D86
-P 5450 4600
-F 0 "R4" V 5530 4600 50  0000 C CNN
-F 1 "0" V 5450 4600 50  0000 C CNN
-F 2 "R_0402" V 5380 4600 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5450 4600 50  0001 C CNN
-F 4 "RMCF0402ZT0R00CT-ND" H 5450 4600 60  0001 C CNN "Digikey#"
-	1    5450 4600
-	0    1    1    0   
+P 6750 5000
+F 0 "R4" H 6750 4850 50  0000 C CNN
+F 1 "0" V 6750 5000 50  0000 C CNN
+F 2 "R_0402" V 6680 5000 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6750 5000 50  0001 C CNN
+F 4 "RMCF0402ZT0R00CT-ND" H 6750 5000 60  0001 C CNN "Digikey#"
+	1    6750 5000
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R5
 U 1 1 584E2523
-P 5450 4900
-F 0 "R5" V 5530 4900 50  0000 C CNN
-F 1 "0" V 5450 4900 50  0000 C CNN
-F 2 "R_0402" V 5380 4900 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5450 4900 50  0001 C CNN
-F 4 "RMCF0402ZT0R00CT-ND" H 5450 4900 60  0001 C CNN "Digikey#"
-	1    5450 4900
-	0    1    1    0   
+P 6850 5000
+F 0 "R5" H 6850 4850 50  0000 C CNN
+F 1 "0" V 6850 5000 50  0000 C CNN
+F 2 "R_0402" V 6780 5000 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6850 5000 50  0001 C CNN
+F 4 "RMCF0402ZT0R00CT-ND" H 6850 5000 60  0001 C CNN "Digikey#"
+	1    6850 5000
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R6
 U 1 1 584E28F5
-P 5450 5200
-F 0 "R6" V 5530 5200 50  0000 C CNN
-F 1 "0" V 5450 5200 50  0000 C CNN
-F 2 "R_0402" V 5380 5200 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5450 5200 50  0001 C CNN
-F 4 "RMCF0402ZT0R00CT-ND" H 5450 5200 60  0001 C CNN "Digikey#"
-	1    5450 5200
-	0    1    1    0   
+P 6950 5000
+F 0 "R6" H 6950 4850 50  0000 C CNN
+F 1 "0" V 6950 5000 50  0000 C CNN
+F 2 "R_0402" V 6880 5000 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6950 5000 50  0001 C CNN
+F 4 "RMCF0402ZT0R00CT-ND" H 6950 5000 60  0001 C CNN "Digikey#"
+	1    6950 5000
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R7
 U 1 1 584E29A9
-P 5450 5350
-F 0 "R7" V 5530 5350 50  0000 C CNN
-F 1 "0" V 5450 5350 50  0000 C CNN
-F 2 "R_0402" V 5380 5350 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5450 5350 50  0001 C CNN
-F 4 "RMCF0402ZT0R00CT-ND" H 5450 5350 60  0001 C CNN "Digikey#"
-	1    5450 5350
-	0    1    1    0   
+P 7050 5000
+F 0 "R7" H 7050 4850 50  0000 C CNN
+F 1 "0" V 7050 5000 50  0000 C CNN
+F 2 "R_0402" V 6980 5000 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7050 5000 50  0001 C CNN
+F 4 "RMCF0402ZT0R00CT-ND" H 7050 5000 60  0001 C CNN "Digikey#"
+	1    7050 5000
+	1    0    0    -1  
 $EndComp
-Text Label 5800 4600 0    60   ~ 0
-PAEN
-Text Label 5800 4900 0    60   ~ 0
-EN
-Text Label 5800 5200 0    60   ~ 0
-HGM
-Text HLabel 5200 4600 0    60   Input ~ 0
+Text HLabel 6750 5250 3    60   Input ~ 0
 GPIO5
-Text HLabel 5200 4900 0    60   Input ~ 0
+Text HLabel 6850 5250 3    60   Input ~ 0
 GPIO4
-Text HLabel 5200 5200 0    60   Input ~ 0
+Text HLabel 6950 5250 3    60   Input ~ 0
 GPIO3
-Text HLabel 5200 5350 0    60   Input ~ 0
+Text HLabel 7050 5250 3    60   Input ~ 0
 GPIO6
 $Comp
 L C C11
@@ -1071,32 +1065,20 @@ Wire Wire Line
 Wire Wire Line
 	4950 4000 4950 4050
 Wire Wire Line
-	6750 4350 6750 4650
+	6750 4350 6750 4850
 Wire Wire Line
-	6850 4600 6850 4350
+	6950 4350 6950 4850
 Wire Wire Line
-	6950 4600 6950 4350
+	6350 4750 6450 4750
+Connection ~ 6950 4750
 Wire Wire Line
-	6750 5050 6750 4950
+	6750 5150 6750 5250
 Wire Wire Line
-	5800 4600 5600 4600
+	6850 5150 6850 5250
 Wire Wire Line
-	5800 4900 5600 4900
+	6950 5150 6950 5250
 Wire Wire Line
-	5800 5200 5600 5200
-Wire Wire Line
-	5700 5200 5700 5350
-Wire Wire Line
-	5700 5350 5600 5350
-Connection ~ 5700 5200
-Wire Wire Line
-	5300 4600 5200 4600
-Wire Wire Line
-	5300 4900 5200 4900
-Wire Wire Line
-	5300 5200 5200 5200
-Wire Wire Line
-	5300 5350 5200 5350
+	7050 5150 7050 5250
 Wire Wire Line
 	6950 2550 6950 2500
 Wire Wire Line
@@ -1199,4 +1181,11 @@ $EndComp
 Wire Wire Line
 	2900 2200 2900 2000
 Connection ~ 2900 2200
+Connection ~ 6750 4750
+Wire Wire Line
+	6850 4350 6850 4850
+Wire Wire Line
+	6950 4750 7050 4750
+Wire Wire Line
+	7050 4750 7050 4850
 $EndSCHEMATC

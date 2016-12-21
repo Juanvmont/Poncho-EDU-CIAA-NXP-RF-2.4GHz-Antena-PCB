@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:device
+LIBS:power
 LIBS:Trx_antena_pcb-cache
 EELAYER 25 0
 EELAYER END
@@ -12,8 +12,8 @@ Rev "1.0"
 Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
 Comment1 "https://github.com/ciaa/Ponchos/tree/master/modelos/doc"
 Comment2 "Basado en el template de Diego Brengi - UNLaM"
-Comment3 "Autor y Licencia del poncho (Juan Vicente Montilla-FIUBA). Ver directorio \"doc\""
-Comment4 "https://github.com/Juanvmont/Poncho-EDU-CIAA-NXP-RF-2.4GHz-Antena-PCB.git"
+Comment3 "Revisor designado (Esp. Ing. Patricio Bos-FIUBA)."
+Comment4 "Autor y Licencia del poncho (Esp. Ing. Juan Vicente Montilla-FIUBA). Ver directorio \"doc\""
 $EndDescr
 $Comp
 L OSHWA #G2
@@ -37,88 +37,84 @@ F 3 "" H 10150 6000 60  0001 C CNN
 	1    10150 6000
 	1    0    0    -1  
 $EndComp
-Text Notes 6950 2850 0    79   Italic 16
-Este diseño puede copiarse como un \nTemplate de KICAD. \n1)En el administrador de Proyectos:  \n   Proyecto Nuevo -> Nuevo Proyecto desde Template\n2)Ingresar el nombre del poncho a crear.\n3)Indicar el directorio de este modelo.
-Text Notes 7000 1800 0    118  ~ 24
+Text Notes 7800 900  0    118  ~ 24
 http://www.proyecto-ciaa.com.ar/
 $Comp
 L Conn_PonchoMP_2x_20x2 XA1
 U 11 1 560E5596
-P 4700 3800
-F 0 "XA1" H 4600 4300 60  0000 C CNN
-F 1 "Conn_PonchoMP_2x_20x2" H 4350 4200 60  0000 C CNN
-F 2 "Poncho_Esqueleto:Conn_Poncho_Izquierdo" H 3900 3100 60  0000 C CNN
-F 3 "" H 4550 4150 60  0000 C CNN
-	11   4700 3800
+P 7100 2700
+F 0 "XA1" H 7000 3200 60  0000 C CNN
+F 1 "Conn_PonchoMP_2x_20x2" H 6750 3100 60  0000 C CNN
+F 2 "Poncho_Esqueleto:Conn_Poncho_Izquierdo" H 6300 2000 60  0001 C CNN
+F 3 "" H 6950 3050 60  0000 C CNN
+	11   7100 2700
 	-1   0    0    -1  
 $EndComp
-Text Notes 7000 3950 0    60   ~ 0
-Luego de abrir el nuevo proyecto:\n1)Editar datos del rótulo.\n2)Editar los archivos del subdirectorio "doc".\n2.1) Agregarse en el archivo de licencia.\n2.2) Colocar info mínima del Poncho en el LEEME.txt\n2.3) Colocar info mínima en el CAMBIOS.doc
 $Comp
 L Conn_PonchoMP_2x_20x2 XA1
 U 10 1 560E54EF
-P 2950 3100
-F 0 "XA1" H 2850 3400 60  0000 C CNN
-F 1 "Conn_PonchoMP_2x_20x2" H 2550 3300 60  0000 C CNN
-F 2 "Poncho_Esqueleto:Conn_Poncho_Izquierdo" H 2200 2800 60  0000 C CNN
-F 3 "" H 2800 3450 60  0000 C CNN
-	10   2950 3100
+P 5350 2000
+F 0 "XA1" H 5250 2300 60  0000 C CNN
+F 1 "Conn_PonchoMP_2x_20x2" H 4950 2200 60  0000 C CNN
+F 2 "Poncho_Esqueleto:Conn_Poncho_Izquierdo" H 4600 1700 60  0001 C CNN
+F 3 "" H 5200 2350 60  0000 C CNN
+	10   5350 2000
 	-1   0    0    1   
 $EndComp
 $Comp
 L PWR_FLAG #FLG01
 U 1 1 560EE826
-P 3750 1050
-F 0 "#FLG01" H 3750 1145 30  0001 C CNN
-F 1 "PWR_FLAG" H 3750 1230 30  0000 C CNN
-F 2 "" H 3750 1050 60  0000 C CNN
-F 3 "" H 3750 1050 60  0000 C CNN
-	1    3750 1050
+P 5100 4350
+F 0 "#FLG01" H 5100 4445 30  0001 C CNN
+F 1 "PWR_FLAG" H 5100 4530 30  0000 C CNN
+F 2 "" H 5100 4350 60  0000 C CNN
+F 3 "" H 5100 4350 60  0000 C CNN
+	1    5100 4350
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR02
 U 1 1 560EE345
-P 5450 1150
-F 0 "#PWR02" H 5450 1150 30  0001 C CNN
-F 1 "GND" H 5450 1080 30  0001 C CNN
-F 2 "" H 5450 1150 60  0000 C CNN
-F 3 "" H 5450 1150 60  0000 C CNN
-	1    5450 1150
+P 6800 4450
+F 0 "#PWR02" H 6800 4450 30  0001 C CNN
+F 1 "GND" H 6800 4380 30  0001 C CNN
+F 2 "" H 6800 4450 60  0000 C CNN
+F 3 "" H 6800 4450 60  0000 C CNN
+	1    6800 4450
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5250 1150
-NoConn ~ 5250 1250
-NoConn ~ 5250 1350
-NoConn ~ 5250 1450
-NoConn ~ 5250 1550
-NoConn ~ 4350 1450
-NoConn ~ 4350 950 
+NoConn ~ 6600 4450
+NoConn ~ 6600 4550
+NoConn ~ 6600 4650
+NoConn ~ 6600 4750
+NoConn ~ 6600 4850
+NoConn ~ 5700 4750
+NoConn ~ 5700 4250
 $Comp
 L Conn_PonchoMP_2x_20x2 XA1
 U 2 1 560EE110
-P 4800 1250
-F 0 "XA1" H 4650 1800 60  0000 C CNN
-F 1 "Conn_PonchoMP_2x_20x2" H 5100 1700 60  0000 C CNN
-F 2 "Poncho_Esqueleto:Conn_Poncho_Izquierdo" H 4150 700 60  0000 C CNN
-F 3 "" H 4650 1600 60  0000 C CNN
-	2    4800 1250
+P 6150 4550
+F 0 "XA1" H 6000 5100 60  0000 C CNN
+F 1 "Conn_PonchoMP_2x_20x2" H 6450 5000 60  0000 C CNN
+F 2 "Poncho_Esqueleto:Conn_Poncho_Izquierdo" H 5500 4000 60  0001 C CNN
+F 3 "" H 6000 4900 60  0000 C CNN
+	2    6150 4550
 	1    0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG03
 U 1 1 560EDE73
-P 5950 900
-F 0 "#FLG03" H 5950 995 30  0001 C CNN
-F 1 "PWR_FLAG" H 5950 1080 30  0000 C CNN
-F 2 "" H 5950 900 60  0000 C CNN
-F 3 "" H 5950 900 60  0000 C CNN
-	1    5950 900 
+P 7300 4200
+F 0 "#FLG03" H 7300 4295 30  0001 C CNN
+F 1 "PWR_FLAG" H 7300 4380 30  0000 C CNN
+F 2 "" H 7300 4200 60  0000 C CNN
+F 3 "" H 7300 4200 60  0000 C CNN
+	1    7300 4200
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4350 1350
-NoConn ~ 4350 1250
-NoConn ~ 4350 1150
+NoConn ~ 5700 4650
+NoConn ~ 5700 4550
+NoConn ~ 5700 4450
 $Comp
 L PCB_HOLE H2
 U 1 1 5613C2CE
@@ -145,88 +141,90 @@ NoConn ~ 8000 5950
 NoConn ~ 8550 5950
 Text Notes 7450 5650 0    60   ~ 0
 Agujeros para visualización de LEDs
-Connection ~ 4000 1050
+Connection ~ 5350 4350
 Wire Wire Line
-	4000 1050 4000 950 
+	5350 4350 5350 4250
 Wire Wire Line
-	3750 1050 4350 1050
-Connection ~ 5450 1050
+	5100 4350 5700 4350
+Connection ~ 6800 4350
 Wire Wire Line
-	5250 950  5950 950 
+	6600 4250 7300 4250
 Wire Wire Line
-	5450 950  5450 1150
+	6800 4250 6800 4450
 Wire Wire Line
-	5250 1050 5450 1050
+	6600 4350 6800 4350
 Wire Wire Line
-	5950 950  5950 900 
-Connection ~ 5450 950 
+	7300 4250 7300 4200
+Connection ~ 6800 4250
 Wire Wire Line
-	2600 3000 1750 3000
+	5000 1900 4150 1900
 Wire Wire Line
-	2600 3100 1750 3100
+	5000 2000 4150 2000
 Wire Wire Line
-	2600 3200 1750 3200
+	5000 2100 4150 2100
 Wire Wire Line
-	1750 3500 4250 3500
+	4150 2400 6650 2400
 Wire Wire Line
-	4250 3600 1750 3600
+	6650 2500 4150 2500
 Wire Wire Line
-	1750 3700 4250 3700
+	4150 2600 6650 2600
 Wire Wire Line
-	1750 3800 4250 3800
+	4150 2700 6650 2700
 Wire Wire Line
-	1750 3900 4250 3900
+	4150 2800 6650 2800
 Wire Wire Line
-	1750 4000 4250 4000
+	4150 2900 6650 2900
 Wire Wire Line
-	1750 4100 4250 4100
+	4150 3000 6650 3000
 $Sheet
-S 950  2800 800  2750
+S 3350 1700 800  2750
 U 582F8126
 F0 "Radio" 60
 F1 "Radio.sch" 60
-F2 "SO" O R 1750 3000 60 
-F3 "SI" I R 1750 3100 60 
-F4 "VREG_EN" I R 1750 4200 60 
-F5 "SCLK" I R 1750 3200 60 
-F6 "GPIO0" B R 1750 3500 60 
-F7 "GPIO1" B R 1750 3600 60 
-F8 "GPIO2" B R 1750 3700 60 
-F9 "GPIO3" B R 1750 3800 60 
-F10 "GPIO4" B R 1750 3900 60 
-F11 "GPIO5" B R 1750 4000 60 
-F12 "CSn" I R 1750 3300 60 
-F13 "GPIO6" B R 1750 4100 60 
-F14 "RESET" I R 1750 4300 60 
+F2 "SO" O R 4150 1900 60 
+F3 "SI" I R 4150 2000 60 
+F4 "VREG_EN" I R 4150 3100 60 
+F5 "SCLK" I R 4150 2100 60 
+F6 "GPIO0" B R 4150 2400 60 
+F7 "GPIO1" B R 4150 2500 60 
+F8 "GPIO2" B R 4150 2600 60 
+F9 "GPIO3" B R 4150 2700 60 
+F10 "GPIO4" B R 4150 2800 60 
+F11 "GPIO5" B R 4150 2900 60 
+F12 "CSn" I R 4150 2200 60 
+F13 "GPIO6" B R 4150 3000 60 
+F14 "RESET" I R 4150 3200 60 
 $EndSheet
 Wire Wire Line
-	4250 4200 1750 4200
+	6650 3100 4150 3100
 $Comp
 L +5V #PWR04
 U 1 1 5851A27B
-P 4000 950
-F 0 "#PWR04" H 4000 800 50  0001 C CNN
-F 1 "+5V" H 4000 1090 50  0000 C CNN
-F 2 "" H 4000 950 50  0000 C CNN
-F 3 "" H 4000 950 50  0000 C CNN
-	1    4000 950 
+P 5350 4250
+F 0 "#PWR04" H 5350 4100 50  0001 C CNN
+F 1 "+5V" H 5350 4390 50  0000 C CNN
+F 2 "" H 5350 4250 50  0000 C CNN
+F 3 "" H 5350 4250 50  0000 C CNN
+	1    5350 4250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 4300 1750 4300
+	6650 3200 4150 3200
 $Comp
 L GND #PWR05
 U 1 1 5852BF25
-P 1900 3350
-F 0 "#PWR05" H 1900 3350 30  0001 C CNN
-F 1 "GND" H 1900 3280 30  0001 C CNN
-F 2 "" H 1900 3350 60  0000 C CNN
-F 3 "" H 1900 3350 60  0000 C CNN
-	1    1900 3350
+P 4300 2250
+F 0 "#PWR05" H 4300 2250 30  0001 C CNN
+F 1 "GND" H 4300 2180 30  0001 C CNN
+F 2 "" H 4300 2250 60  0000 C CNN
+F 3 "" H 4300 2250 60  0000 C CNN
+	1    4300 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 3350 1900 3300
+	4300 2250 4300 2200
 Wire Wire Line
-	1900 3300 1750 3300
+	4300 2200 4150 2200
+Text Notes 1000 7200 0    60   ~ 0
+Este circuito de poncho implementa una unidad de radio \nque opera en la banda de frecuencias abierta de 2.4GHz \ny compila con aplicaciones de la EDU-CIAA NXP \nque soportan el estándar IEEE 802.15.4: IEEE Standards Association. \nIEEE Standard for Local and metropolitan area networks–Part 15.4: \nLow-Rate Wireless Personal Area Networks (LR-WPANs) y ZIGBEE.\n\n2.4 GHz Antena(DN007): Inverted-F Antenna (IFA) \nGanancia en plano XY: 1.1 dB\nGanancia en plano XZ: 3.3 dB\nGanancia en plano YZ: 1.6 dB\nGanancia máxima: +3.3 dB\nEficiencia típica: 80% (EB) 94% (SA)\nAncho de banda @ VSWR 2.0: 280 MHz\nDimensiones (mm): 26 x 8\nReflexión: < -15 dB  (<10% de la potencia disponible para un ancho de banda  de >300MHz)\n\nGuía de Selección de Antena. Texas Instrument.   http://www.ti.com/lit/an/swra161b/swra161b.pdf\nDesign Note DN0007: 2.4 GHz Inverted F Antenna http://www.ti.com/lit/an/swru120b/swru120b.pdf\nReference Design: Using CC2591 Front End with CC2520\nhttp://www.ti.com/lit/an/swra229a/swra229a.pdf
 $EndSCHEMATC
