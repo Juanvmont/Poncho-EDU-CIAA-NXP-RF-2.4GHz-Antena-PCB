@@ -2,6 +2,6 @@
   (lib (name Poncho_Esqueleto)(type Github)(uri https://github.com/LacieUnlam/Poncho_Esqueleto.pretty)(options "")(descr ""))
   (lib (name Poncho_Modelos)(type Github)(uri https://github.com/LacieUnlam/Poncho_Modelos.pretty)(options "")(descr ""))
   (lib (name Wpan_Prints)(type Github)(uri https://github.com/ObKo/OpenLoWPAN)(options "")(descr ""))
-  (lib (name 2591)(type KiCad)(uri /home/juanv/Desktop/ubertooth-master/hardware/kicad)(options "")(descr ""))
-  (lib (name Ej1)(type KiCad)(uri /home/juanv/Desktop/Ej1/juanvmont)(options "")(descr ""))
+  (lib (name 2591)(type KiCad)(uri /home/juanv/Desktop/MSE/diseñoPcb/ubertooth-master/hardware/kicad)(options "")(descr ""))
+  (lib (name Ej1)(type KiCad)(uri /home/juanv/Desktop/MSE/diseñoPcb/Ej1/juanvmont)(options "")(descr ""))
 )

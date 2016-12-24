@@ -36,3 +36,9 @@ Historial de cambios realizados
 -Se cambian sustitutos directos en componentes obsoletos
 ->>
 
+               <<Quintas correcciones: 23/12/16
+-Asignacion de footprints
+-Generacion de Netlist
+-Layout de componentes en PCBNEW segun reference design
+->>
+

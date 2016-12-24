@@ -1,0 +1,368 @@
+Info: Reading netlist file "/home/juanv/Desktop/MSE/diseñoPcb/tpfinal_Kicad/Trx_antena_pcb/Trx_antena_pcb.net".
+
+Info: Using references to match components and footprints.
+
+Error: Component 'U2' footprint 'QFN65P400X400X100-16N' was not found in any libraries in the footprint library table.
+
+Error: Component 'U1' footprint 'QFN50P500X500X100-28N' was not found in any libraries in the footprint library table.
+
+Info: Checking netlist component footprint "1uF/6.3V1:/582F8126/5834A0B8:Capacitors_SMD:C_0402".
+
+Adding new component "1uF/6.3V1:/582F8126/5834A0B8" footprint "Capacitors_SMD:C_0402".
+
+Changing component "1uF/6.3V1:/582F8126/5834A0B8" pin "1" net name from "" to "Net-(1uF/6.3V1-Pad1)".
+
+Changing component "1uF/6.3V1:/582F8126/5834A0B8" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "A1:/582F8126/582F82E2:Wpan_Prints:INV_F_ANT".
+
+Adding new component "A1:/582F8126/582F82E2" footprint "Wpan_Prints:INV_F_ANT".
+
+Changing component "A1:/582F8126/582F82E2" pin "2" net name from "" to "GND".
+
+Changing component "A1:/582F8126/582F82E2" pin "3" net name from "" to "GND".
+
+Changing component "A1:/582F8126/582F82E2" pin "1" net name from "" to "Net-(A1-Pad1)".
+
+Info: Checking netlist component footprint "C1:/582F8126/5834A314:Capacitors_SMD:C_0402".
+
+Adding new component "C1:/582F8126/5834A314" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C1:/582F8126/5834A314" pin "1" net name from "" to "GND".
+
+Changing component "C1:/582F8126/5834A314" pin "2" net name from "" to "Net-(C1-Pad2)".
+
+Info: Checking netlist component footprint "C2:/582F8126/5834A3A6:Capacitors_SMD:C_0402".
+
+Adding new component "C2:/582F8126/5834A3A6" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C2:/582F8126/5834A3A6" pin "1" net name from "" to "Net-(C2-Pad1)".
+
+Changing component "C2:/582F8126/5834A3A6" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C3:/582F8126/58349EA0:Capacitors_SMD:C_0402".
+
+Adding new component "C3:/582F8126/58349EA0" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C3:/582F8126/58349EA0" pin "1" net name from "" to "GND".
+
+Changing component "C3:/582F8126/58349EA0" pin "2" net name from "" to "Net-(1uF/6.3V1-Pad1)".
+
+Info: Checking netlist component footprint "C4:/582F8126/5834877F:Capacitors_SMD:C_0402".
+
+Adding new component "C4:/582F8126/5834877F" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C4:/582F8126/5834877F" pin "1" net name from "" to "GND".
+
+Changing component "C4:/582F8126/5834877F" pin "2" net name from "" to "Net-(1uF/6.3V1-Pad1)".
+
+Info: Checking netlist component footprint "C5:/582F8126/5834A030:Capacitors_SMD:C_0402".
+
+Adding new component "C5:/582F8126/5834A030" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C5:/582F8126/5834A030" pin "1" net name from "" to "GND".
+
+Changing component "C5:/582F8126/5834A030" pin "2" net name from "" to "Net-(1uF/6.3V1-Pad1)".
+
+Info: Checking netlist component footprint "C6:/582F8126/5834A1E1:Capacitors_SMD:C_0402".
+
+Adding new component "C6:/582F8126/5834A1E1" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C6:/582F8126/5834A1E1" pin "1" net name from "" to "Net-(C6-Pad1)".
+
+Changing component "C6:/582F8126/5834A1E1" pin "2" net name from "" to "Net-(C6-Pad2)".
+
+Info: Checking netlist component footprint "C7:/582F8126/5834B4E9:Capacitors_SMD:C_0402".
+
+Adding new component "C7:/582F8126/5834B4E9" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C7:/582F8126/5834B4E9" pin "1" net name from "" to "Net-(C7-Pad1)".
+
+Changing component "C7:/582F8126/5834B4E9" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C8:/582F8126/5834A259:Capacitors_SMD:C_0402".
+
+Adding new component "C8:/582F8126/5834A259" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C8:/582F8126/5834A259" pin "1" net name from "" to "Net-(C8-Pad1)".
+
+Changing component "C8:/582F8126/5834A259" pin "2" net name from "" to "Net-(C8-Pad2)".
+
+Info: Checking netlist component footprint "C9:/582F8126/584ED152:Capacitors_SMD:C_0402".
+
+Adding new component "C9:/582F8126/584ED152" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C9:/582F8126/584ED152" pin "1" net name from "" to "/Radio/TL11".
+
+Changing component "C9:/582F8126/584ED152" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C10:/582F8126/5850220F:Capacitors_SMD:C_0402".
+
+Adding new component "C10:/582F8126/5850220F" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C10:/582F8126/5850220F" pin "1" net name from "" to "GND".
+
+Changing component "C10:/582F8126/5850220F" pin "2" net name from "" to "/Radio/TL11".
+
+Info: Checking netlist component footprint "C11:/582F8126/584E9FD7:Capacitors_SMD:C_0402".
+
+Adding new component "C11:/582F8126/584E9FD7" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C11:/582F8126/584E9FD7" pin "1" net name from "" to "GND".
+
+Changing component "C11:/582F8126/584E9FD7" pin "2" net name from "" to "/Radio/TL11".
+
+Info: Checking netlist component footprint "C12:/582F8126/583545EA:Capacitors_SMD:C_0402".
+
+Adding new component "C12:/582F8126/583545EA" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C12:/582F8126/583545EA" pin "1" net name from "" to "GND".
+
+Changing component "C12:/582F8126/583545EA" pin "2" net name from "" to "Net-(C12-Pad2)".
+
+Info: Checking netlist component footprint "C13:/582F8126/58350D19:Capacitors_SMD:C_0402".
+
+Adding new component "C13:/582F8126/58350D19" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C13:/582F8126/58350D19" pin "1" net name from "" to "Net-(C13-Pad1)".
+
+Changing component "C13:/582F8126/58350D19" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C14:/582F8126/584FC11B:Capacitors_SMD:C_0402".
+
+Adding new component "C14:/582F8126/584FC11B" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C14:/582F8126/584FC11B" pin "1" net name from "" to "Net-(C14-Pad1)".
+
+Changing component "C14:/582F8126/584FC11B" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C15:/582F8126/58350FA6:Capacitors_SMD:C_0402".
+
+Adding new component "C15:/582F8126/58350FA6" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C15:/582F8126/58350FA6" pin "1" net name from "" to "Net-(C13-Pad1)".
+
+Changing component "C15:/582F8126/58350FA6" pin "2" net name from "" to "Net-(C15-Pad2)".
+
+Info: Checking netlist component footprint "C16:/582F8126/583510DE:Capacitors_SMD:C_0402".
+
+Adding new component "C16:/582F8126/583510DE" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C16:/582F8126/583510DE" pin "1" net name from "" to "Net-(C15-Pad2)".
+
+Changing component "C16:/582F8126/583510DE" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "H1:/5613C419:Poncho_Modelos:Led_Hole".
+
+Info: Checking netlist component footprint "H2:/5613C2CE:Poncho_Modelos:Led_Hole".
+
+Info: Checking netlist component footprint "L1:/582F8126/58356107:Capacitors_SMD:C_0402".
+
+Adding new component "L1:/582F8126/58356107" footprint "Capacitors_SMD:C_0402".
+
+Changing component "L1:/582F8126/58356107" pin "1" net name from "" to "+5V".
+
+Changing component "L1:/582F8126/58356107" pin "2" net name from "" to "Net-(1uF/6.3V1-Pad1)".
+
+Info: Checking netlist component footprint "L2:/582F8126/58389C11:Capacitors_SMD:C_0402".
+
+Adding new component "L2:/582F8126/58389C11" footprint "Capacitors_SMD:C_0402".
+
+Changing component "L2:/582F8126/58389C11" pin "1" net name from "" to "GND".
+
+Changing component "L2:/582F8126/58389C11" pin "2" net name from "" to "Net-(C6-Pad2)".
+
+Info: Checking netlist component footprint "L3:/582F8126/5838AB71:Capacitors_SMD:C_0402".
+
+Adding new component "L3:/582F8126/5838AB71" footprint "Capacitors_SMD:C_0402".
+
+Changing component "L3:/582F8126/5838AB71" pin "1" net name from "" to "Net-(C8-Pad1)".
+
+Changing component "L3:/582F8126/5838AB71" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "L4:/582F8126/584EBE83:Capacitors_SMD:C_0402".
+
+Adding new component "L4:/582F8126/584EBE83" footprint "Capacitors_SMD:C_0402".
+
+Changing component "L4:/582F8126/584EBE83" pin "1" net name from "" to "+5V".
+
+Changing component "L4:/582F8126/584EBE83" pin "2" net name from "" to "/Radio/TL11".
+
+Info: Checking netlist component footprint "L5:/582F8126/5838B199:Capacitors_SMD:C_0402".
+
+Adding new component "L5:/582F8126/5838B199" footprint "Capacitors_SMD:C_0402".
+
+Changing component "L5:/582F8126/5838B199" pin "1" net name from "" to "Net-(C6-Pad2)".
+
+Changing component "L5:/582F8126/5838B199" pin "2" net name from "" to "Net-(L5-Pad2)".
+
+Info: Checking netlist component footprint "L6:/582F8126/5838B294:Capacitors_SMD:C_0402".
+
+Adding new component "L6:/582F8126/5838B294" footprint "Capacitors_SMD:C_0402".
+
+Changing component "L6:/582F8126/5838B294" pin "1" net name from "" to "Net-(L6-Pad1)".
+
+Changing component "L6:/582F8126/5838B294" pin "2" net name from "" to "Net-(C8-Pad1)".
+
+Info: Checking netlist component footprint "L7:/582F8126/584F89CD:Capacitors_SMD:C_0402".
+
+Adding new component "L7:/582F8126/584F89CD" footprint "Capacitors_SMD:C_0402".
+
+Changing component "L7:/582F8126/584F89CD" pin "1" net name from "" to "/Radio/TL11".
+
+Changing component "L7:/582F8126/584F89CD" pin "2" net name from "" to "/Radio/TL101".
+
+Info: Checking netlist component footprint "L8:/582F8126/584FBC83:Capacitors_SMD:C_0402".
+
+Adding new component "L8:/582F8126/584FBC83" footprint "Capacitors_SMD:C_0402".
+
+Changing component "L8:/582F8126/584FBC83" pin "1" net name from "" to "/Radio/TL101".
+
+Changing component "L8:/582F8126/584FBC83" pin "2" net name from "" to "Net-(C14-Pad1)".
+
+Info: Checking netlist component footprint "L9:/582F8126/5838BEF5:Capacitors_SMD:C_0402".
+
+Adding new component "L9:/582F8126/5838BEF5" footprint "Capacitors_SMD:C_0402".
+
+Changing component "L9:/582F8126/5838BEF5" pin "1" net name from "" to "Net-(L9-Pad1)".
+
+Changing component "L9:/582F8126/5838BEF5" pin "2" net name from "" to "Net-(C13-Pad1)".
+
+Info: Checking netlist component footprint "L10:/582F8126/5838CCFA:Capacitors_SMD:C_0402".
+
+Adding new component "L10:/582F8126/5838CCFA" footprint "Capacitors_SMD:C_0402".
+
+Changing component "L10:/582F8126/5838CCFA" pin "1" net name from "" to "Net-(C15-Pad2)".
+
+Changing component "L10:/582F8126/5838CCFA" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "R1:/582F8126/5834A0FA:Resistors_SMD:R_0402".
+
+Adding new component "R1:/582F8126/5834A0FA" footprint "Resistors_SMD:R_0402".
+
+Changing component "R1:/582F8126/5834A0FA" pin "1" net name from "" to "Net-(1uF/6.3V1-Pad1)".
+
+Changing component "R1:/582F8126/5834A0FA" pin "2" net name from "" to "/Radio/VREG_EN".
+
+Info: Checking netlist component footprint "R2:/582F8126/58349A84:Resistors_SMD:R_0402".
+
+Adding new component "R2:/582F8126/58349A84" footprint "Resistors_SMD:R_0402".
+
+Changing component "R2:/582F8126/58349A84" pin "1" net name from "" to "/Radio/SO".
+
+Changing component "R2:/582F8126/58349A84" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "R3:/582F8126/5834A339:Resistors_SMD:R_0402".
+
+Adding new component "R3:/582F8126/5834A339" footprint "Resistors_SMD:R_0402".
+
+Changing component "R3:/582F8126/5834A339" pin "1" net name from "" to "GND".
+
+Changing component "R3:/582F8126/5834A339" pin "2" net name from "" to "Net-(R3-Pad2)".
+
+Info: Checking netlist component footprint "R4:/582F8126/584E0D86:Resistors_SMD:R_0402".
+
+Adding new component "R4:/582F8126/584E0D86" footprint "Resistors_SMD:R_0402".
+
+Changing component "R4:/582F8126/584E0D86" pin "1" net name from "" to "/Radio/PAEN".
+
+Changing component "R4:/582F8126/584E0D86" pin "2" net name from "" to "/Radio/GPIO5".
+
+Info: Checking netlist component footprint "R5:/582F8126/584E2523:Resistors_SMD:R_0402".
+
+Adding new component "R5:/582F8126/584E2523" footprint "Resistors_SMD:R_0402".
+
+Changing component "R5:/582F8126/584E2523" pin "1" net name from "" to "/Radio/EN".
+
+Changing component "R5:/582F8126/584E2523" pin "2" net name from "" to "/Radio/GPIO4".
+
+Info: Checking netlist component footprint "R6:/582F8126/584E28F5:Resistors_SMD:R_0402".
+
+Adding new component "R6:/582F8126/584E28F5" footprint "Resistors_SMD:R_0402".
+
+Changing component "R6:/582F8126/584E28F5" pin "1" net name from "" to "/Radio/HGM".
+
+Changing component "R6:/582F8126/584E28F5" pin "2" net name from "" to "/Radio/GPIO3".
+
+Info: Checking netlist component footprint "R7:/582F8126/584E29A9:Resistors_SMD:R_0402".
+
+Adding new component "R7:/582F8126/584E29A9" footprint "Resistors_SMD:R_0402".
+
+Changing component "R7:/582F8126/584E29A9" pin "1" net name from "" to "/Radio/HGM".
+
+Changing component "R7:/582F8126/584E29A9" pin "2" net name from "" to "/Radio/GPIO6".
+
+Info: Checking netlist component footprint "R8:/582F8126/584D6395:Resistors_SMD:R_0402".
+
+Adding new component "R8:/582F8126/584D6395" footprint "Resistors_SMD:R_0402".
+
+Changing component "R8:/582F8126/584D6395" pin "1" net name from "" to "/Radio/PAEN".
+
+Changing component "R8:/582F8126/584D6395" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "R9:/582F8126/583540C5:Resistors_SMD:R_0402".
+
+Adding new component "R9:/582F8126/583540C5" footprint "Resistors_SMD:R_0402".
+
+Changing component "R9:/582F8126/583540C5" pin "1" net name from "" to "GND".
+
+Changing component "R9:/582F8126/583540C5" pin "2" net name from "" to "Net-(R9-Pad2)".
+
+Info: Checking netlist component footprint "R10:/582F8126/58352221:Resistors_SMD:R_0402".
+
+Adding new component "R10:/582F8126/58352221" footprint "Resistors_SMD:R_0402".
+
+Changing component "R10:/582F8126/58352221" pin "1" net name from "" to "Net-(A1-Pad1)".
+
+Changing component "R10:/582F8126/58352221" pin "2" net name from "" to "Net-(C15-Pad2)".
+
+Info: Checking netlist component footprint "U1:/582F8126/582F81D4:QFN50P500X500X100-28N".
+
+Error: Cannot add new component "U1:/582F8126/582F81D4" due to missing footprint "QFN50P500X500X100-28N".
+
+Info: Checking netlist component footprint "U2:/582F8126/5830EB9B:QFN65P400X400X100-16N".
+
+Error: Cannot add new component "U2:/582F8126/5830EB9B" due to missing footprint "QFN65P400X400X100-16N".
+
+Info: Checking netlist component footprint "X1:/582F8126/5834A86F:Crystals:Crystal_SMD_5032_4Pads".
+
+Adding new component "X1:/582F8126/5834A86F" footprint "Crystals:Crystal_SMD_5032_4Pads".
+
+Changing component "X1:/582F8126/5834A86F" pin "1" net name from "" to "Net-(C1-Pad2)".
+
+Changing component "X1:/582F8126/5834A86F" pin "3" net name from "" to "Net-(C2-Pad1)".
+
+Changing component "X1:/582F8126/5834A86F" pin "2" net name from "" to "GND".
+
+Changing component "X1:/582F8126/5834A86F" pin "3" net name from "" to "Net-(C2-Pad1)".
+
+Info: Checking netlist component footprint "XA1:/560E5596:Poncho_Esqueleto:Conn_Poncho_Izquierdo".
+
+Changing component "XA1:/560E5596" pin "42" net name from "+5VP" to "+5V".
+
+Changing component "XA1:/560E5596" pin "58" net name from "Net-(P1-Pad4)" to "/Radio/SO".
+
+Changing component "XA1:/560E5596" pin "60" net name from "Net-(P1-Pad2)" to "/Radio/SCLK".
+
+Changing component "XA1:/560E5596" pin "61" net name from "Net-(P1-Pad3)" to "/Radio/SI".
+
+Changing component "XA1:/560E5596" pin "69" net name from "Net-(XA1-Pad69)" to "/Radio/GPIO0".
+
+Changing component "XA1:/560E5596" pin "71" net name from "Net-(XA1-Pad71)" to "/Radio/GPIO2".
+
+Changing component "XA1:/560E5596" pin "72" net name from "Net-(P2-Pad4)" to "/Radio/GPIO1".
+
+Changing component "XA1:/560E5596" pin "73" net name from "Net-(XA1-Pad73)" to "/Radio/GPIO4".
+
+Changing component "XA1:/560E5596" pin "74" net name from "Net-(P2-Pad3)" to "/Radio/GPIO3".
+
+Changing component "XA1:/560E5596" pin "75" net name from "Net-(XA1-Pad75)" to "/Radio/GPIO6".
+
+Changing component "XA1:/560E5596" pin "76" net name from "Net-(P2-Pad2)" to "/Radio/GPIO5".
+
+Changing component "XA1:/560E5596" pin "78" net name from "Net-(XA1-Pad78)" to "/Radio/VREG_EN".
+
+Changing component "XA1:/560E5596" pin "80" net name from "Net-(XA1-Pad80)" to "/Radio/RESET".
+
+Error: Component 'X1' pad '4' not found in footprint 'Crystals:Crystal_SMD_5032_4Pads'
+
